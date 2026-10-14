@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Girl_Stand_4
+  m_Rect:
+    serializedVersion: 2
+    x: 294.0761
+    y: 0
+    width: 52.847763
+    height: 137.93414
+  m_Offset: {x: -9.500482, y: -81.96457}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 965f332d59a29b848b975fd4cfc76d54, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.1250153, y: 4.718672, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.87501526, y: 0.4061718, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1250153, y: 0.6561718, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031234741, y: 4.718672, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53123474, y: 4.312422, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53123474, y: 0.4061718, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 294.0761
+      y: 0
+      width: 52.847763
+      height: 137.93414
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 310.9995, z: 32, w: -12.997498}

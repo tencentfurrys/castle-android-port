@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Manager_H01_01_4
+  m_Rect:
+    serializedVersion: 2
+    x: 458.0129
+    y: 161.07613
+    width: 86.910965
+    height: 134.89713
+  m_Offset: {x: -6.468391, y: -78.52469}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: fd35f14cd260c464aa8fc67a41c25c37, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 4.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5625, y: 2.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5625, y: 3.1875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6875, y: 0.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 4.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 4.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.375, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 1.1875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 1.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9375, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.15625, y: 4.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.15625, y: 1.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875, y: 1.5625, z: 0}
+    indices: 0e00090008000d000c000b0006000b000c000a000b00060009000a000600080009000600070008000600040007000600050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 458.0129
+      y: 161.07613
+      width: 86.910965
+      height: 134.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 495, z: 32, w: 150}

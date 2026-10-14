@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Small_Mouse_H01_O2_6
+  m_Rect:
+    serializedVersion: 2
+    x: 34
+    y: 0
+    width: 34
+    height: 56
+  m_Offset: {x: 7.394997, y: -40.992}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 8013a7a94bc0bee47997d2438001f8ad, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.51234365, y: 2.1560001, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.30015635, y: 0.40600002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.30015635, y: 2.1560001, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76234365, y: 1.906, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76234365, y: 0.40600002, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 34
+      y: 0
+      width: 34
+      height: 56
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 58.394997, z: 32, w: -12.992001}

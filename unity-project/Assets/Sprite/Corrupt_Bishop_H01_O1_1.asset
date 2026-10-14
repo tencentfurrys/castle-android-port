@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Corrupt_Bishop_H01_O1_1
+  m_Rect:
+    serializedVersion: 2
+    x: 140
+    y: 0
+    width: 140
+    height: 192
+  m_Offset: {x: 0, y: -96}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 841cf15db300f5a4b8fee8542dd13169, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.0625, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1875, y: 0.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1875, y: 1.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.65625, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.875, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5625, y: 4.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.375, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.40625, y: 4.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.40625, y: 4.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.1875, y: 2.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.1875, y: 0.875, z: 0}
+    indices: 0c000b0008000a0008000b00090008000a00070008000900040008000700060004000700050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 140
+      y: 0
+      width: 140
+      height: 192
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 210, z: 32, w: 0}

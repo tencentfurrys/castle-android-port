@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RobotNurse_Chair_Line_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 26
+    width: 31
+    height: 52
+  m_Offset: {x: -10.50125, y: -40.9994}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e04c30f45f77c5248ada0ed1f4328dbf, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.15621093, y: 2.0937314, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125391, y: 2.0937314, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15621093, y: 0.46873128, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125391, y: 0.46873128, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 31
+      height: 52
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 4.9987497, z: 32, w: 11.000599}

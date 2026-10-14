@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dark_Frog_H01_Out02_2
+  m_Rect:
+    serializedVersion: 2
+    x: 101.051315
+    y: 78.051315
+    width: 16.872562
+    height: 19.872562
+  m_Offset: {x: 22.031004, y: -28.9836}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7ba2e869fe40b8f4f8b839642650bc54, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.85995626, y: 0.74987507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76620626, y: 0.62487507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76620626, y: 0.71862507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.85995626, y: 0.59362507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.92245626, y: 0.68737507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.51620626, y: 1.2186251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.42245626, y: 1.0311251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.42245626, y: 1.0936251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.57870626, y: 0.87487507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.73495626, y: 0.87487507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.79745626, y: 1.2186251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.92245626, y: 0.90612507, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.95370626, y: 1.0936251, z: 0}
+    indices: 0c000a000b0009000b000a00050009000a00080009000500060008000500070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 101.051315
+      y: 78.051315
+      width: 16.872562
+      height: 19.872562
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 131.5186, z: 32, w: 59.003998}

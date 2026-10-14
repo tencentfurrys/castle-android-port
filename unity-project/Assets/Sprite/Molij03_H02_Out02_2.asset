@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Molij03_H02_Out02_2
+  m_Rect:
+    serializedVersion: 2
+    x: 97.01291
+    y: 38.07612
+    width: 31.837738
+    height: 26.910967
+  m_Offset: {x: 0.069024205, y: -30.5332}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a11d291f690f25a42992d004627cc1f9, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.49997497, y: 1.2500501, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34372497, y: 0.5313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.49997497, y: 0.6563, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15622497, y: 1.3750501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.50002503, y: 1.3750501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.50002503, y: 0.5313, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 97.01291
+      y: 38.07612
+      width: 31.837738
+      height: 26.910967
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 113.0008, z: 32, w: 20.9984}

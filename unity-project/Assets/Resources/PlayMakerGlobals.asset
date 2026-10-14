@@ -1,0 +1,566 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier:
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: BGMVol_Precent
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: C_Move_Speed
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: C_Move_Speed_End
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Loading_Rate
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Now_Loading_Rate
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: SEVol_Precent
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables:
+    - useVariable: 1
+      name: Cholate_Find_Number
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Now_Kind_Index
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Now_Stage
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Owner_Coin
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Resolution
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: 10_Dollar_Reward
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Defeat_Restart
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Free_Stage
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Gallery_Menu_Hide
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Gallery_Mode
+      tooltip: Map_66 Set
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Gallery_Normal_Setting
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Globals_Hard_Mode
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: GoBack_Loot
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: KeyBoard_On
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Lock_Stage_02
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Lock_Stage_03
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Lock_Stage_04
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Lock_Stage_05
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Lock_Stage_06
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: New_Stage
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: New_Start
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Opening_Animation
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Paradise_Mode
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Patch_Use
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Scene_End_Back_Bool
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Talk_Keep
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: Back_Talk_Title
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Cross_Move_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: CrossMove_Castle
+    - useVariable: 1
+      name: Dialogue_Stage_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Down
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_H
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Jump
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Left
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Right
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Take
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Talk
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Fake_Key_Up
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Global_Save_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Global_SaveData.sav
+    - useVariable: 1
+      name: Key_Down
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_H
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Jump
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Left
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Option
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Right
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Take
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Talk
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Key_Up
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Language
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: Chinese
+    - useVariable: 1
+      name: Load_Scene_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Now_Talk_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Now_Talk_Scene
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: SaveData_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: SaveData.sav
+    - useVariable: 1
+      name: Scene_End_Back
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Stage_BackGround_Name
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    - useVariable: 1
+      name: Stage_Code
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value:
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Game_Manager
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Save_Controller
+      tooltip:
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+  events:
+  - Being_Attack
+  - Renew
+  - Being_Attack_Animate
+  - Player_Attack
+  - Passive AI
+  - H_Select
+  - OUT
+  - H_ATK_End
+  - White Renew
+  - After_Being_H_ATK
+  - After_BeingATK
+  - Being_Heal
+  - HP = 0
+  - Go Stay
+  - H ATK Success
+  - Skill Control
+  - Start Work
+  - Use Skill
+  - After ATK
+  - ATK Failed
+  - Stop Skill
+  - Being_H_Attack
+  - Manager Start
+  - Stage Clear
+  - Stage Failed
+  - Next Set
+  - Fade Out
+  - Fade In
+  - Start Scroll
+  - Start Animation
+  - Cooperate Success
+  - Cooperate Attack
+  - Order_H
+  - Light Effect
+  - SendBack
+  - Paused
+  - Paused Active
+  - Set Finish
+  - Action_Finish
+  - Get_Action
+  - FSM_Stay
+  - Next Step
+  - Array_Renew
+  - After_Use_Skill
+  - Situation_Set
+  - Initalize Start
+  - H_Action_Order
+  - Use SP Skill
+  - Order_Action
+  - Order_Renew
+  - Have_Action
+  - First_Set
+  - Active_Image
+  - Scroll_Action
+  - ReBirth
+  - Game_Defeat
+  - Game_Clear
+  - Game_Pause
+  - UGUI / ON CLICK
+  - Close_Image
+  - Enemy_Support
+  - Enemy_Defeat
+  - Recycle_Call
+  - Sound_Play
+  - Player_Defeat
+  - Game_Finish
+  - Skill_Done
+  - Enemy_Recycle_Use
+  - Loading_Finish
+  - Self_Call
+  - Self_Stay
+  - Self_Next
+  - Consist_End
+  - H_ATK_Success
+  - H_ATK_Out
+  - H_Out_Back
+  - Self_SituationDone
+  - Use_Passive_Skill
+  - Use_SP_Skill
+  - Open_Attack
+  - Close_Attack
+  - Enemy_H_Call
+  - Enemy_H_Failed
+  - Self_Next02
+  - Player_Call
+  - Manager_Done
+  - Pool_Call
+  - Self_Done
+  - Self_Out
+  - H_Image_Close
+  - H_ATK_Complete
+  - Self_Complete
+  - Set_Now
+  - Cooperate_Call
+  - Cooperate_Wait
+  - Range_Self_Call
+  - Range_Self_Use
+  - Range_Self_Stop
+  - Game_Manager_Call
+  - Game_Manager_Start
+  - Self_Stop
+  - Turn_Left
+  - Turn_Right
+  - Range_Self_Hit
+  - Manager Call
+  - Defeat_Call
+  - Turn Left
+  - Turn Right
+  - Start_Action
+  - BOSS_Action
+  - Start_Animation
+  - Fake_Restart
+  - Close_Cross
+  - Self_Setting_Done
+  - Self_Change_In
+  - Self_Change_Out
+  - Button_Call
+  - Button_Down
+  - Member_Change
+  - Change_And_Save
+  - Range_Cube_Out
+  - BGM_Start
+  - Game_Quit
+  - H_After_Out
+  - First_Action
+  - N01
+  - N02
+  - N03
+  - O01
+  - O02
+  - RA1
+  - RA2
+  - S01
+  - S02
+  - S03
+  - RestartFSM
+  - Talk_Call
+  - Map_Move
+  - Hit
+  - No Out ATK
+  - O03
+  - S_BoolJob01
+  - S_BoolJob02
+  - S_Chupa01
+  - S_Clean
+  - S_DeepKiss01
+  - S_Down01
+  - S_Eat01
+  - S_FootJob01
+  - S_HIn01
+  - S_HIn02
+  - S_HandJob01
+  - S_Kucha01
+  - S_Lip01
+  - S_SameDrop
+  - S_SameIn01
+  - S_SameIn02
+  - S_SameOut01
+  - S_SameOut02
+  - S_Sword01

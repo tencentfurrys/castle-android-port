@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1219815696, guid: daca89c25bd1813ceecbbbb8555342a7, type: 3}
+  m_Name: H_Basic_Status
+  m_EditorClassIdentifier:
+  category: General
+  fsm:
+    usedInTemplate: {fileID: 11400000}
+    name: H_Basic
+    startState: State 1
+    states:
+    - name: State 1
+      description:
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled:
+        actionIsOpen:
+        actionStartIndex:
+        actionHashCodes:
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData:
+        arrayParamSizes:
+        arrayParamTypes: []
+        customTypeSizes:
+        customTypeNames: []
+        paramDataType:
+        paramName: []
+        paramDataPos:
+        paramByteDataSize:
+    events: []
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: Absolute_Player_Scale_X
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Absolute_Scale_X
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_PosX_Fix
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_PosY_Fix
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: HP_Damage
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 40
+      - useVariable: 1
+        name: H_PosX_Fix
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      intVariables:
+      - useVariable: 1
+        name: Co_H_Number
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: Change_Player_Head
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Change_Temptation_Bar
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Co_Reset
+        tooltip:
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Defeat_Pos_Set
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_Floating
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_PosX_Basic
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_PosY_Basic
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Enemy_Scale_Basic
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_Ease_In
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_End_Hide
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_Floating
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_Image_Reverse
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_PosX_Lock
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: H_Stand
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 1
+      - useVariable: 1
+        name: Head_Set_Enemy
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Head_Set_Player
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: No_PE_H_PosX_Fix
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player_Defeat_Continue
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player_Floating
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player_Normal_Continue
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player_PosX_Scale
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player_Scale_Get_Away
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Position_Set_Enemy
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Position_Set_Player
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Reverse_PE_H_PosX_Fix
+        tooltip: Set Pos Scale Use
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Same_Enemy_Scale
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Same_Player_Scale
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables:
+      - useVariable: 1
+        name: H_Animator
+        tooltip:
+        showInInspector: 1
+        networkSync: 0
+        typeName: UnityEngine.RuntimeAnimatorController
+        value: {fileID: 0}
+      materialVariables: []
+      textureVariables: []
+    description:
+    docUrl:
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark:
+    version: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    StepFrame: 0
+    activeStateName:

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Slime_Doll_H01_3_8
+  m_Rect:
+    serializedVersion: 2
+    x: 240
+    y: 171.07613
+    width: 80
+    height: 143.84775
+  m_Offset: {x: -14.399994, y: -83}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6c7d6276b00f2464898a3b06d87aa095, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.0749998, y: 4.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6999998, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6999998, y: 2.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3000002, y: 4.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4250002, y: 4.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8000002, y: 2.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8000002, y: 0.34375, z: 0}
+    indices: 060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 240
+      y: 171.07613
+      width: 80
+      height: 143.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 265.6, z: 32, w: 160}

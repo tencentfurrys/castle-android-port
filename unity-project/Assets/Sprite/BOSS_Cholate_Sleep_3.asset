@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BOSS_Cholate_Sleep_3
+  m_Rect:
+    serializedVersion: 2
+    x: 314.0761
+    y: 11.07612
+    width: 296.91098
+    height: 226.84775
+  m_Offset: {x: 30.368397, y: -124.49999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: cdb9a2fe0c1d5d14cbfcd363567dd892, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.0343752, y: 6.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.7843752, y: 2.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.5031252, y: 5.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.18437481, y: 7.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.6593752, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.6906252, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.6906252, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.4093752, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.059375, y: 7.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.153125, y: 1.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.684375, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.778125, y: 0.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.778125, y: 0.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.184375, y: 7.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.590625, y: 5.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.590625, y: 4.0625, z: 0}
+    indices: 0f000e0009000d0009000e00080009000d000c000b000a0009000a000b0005000a000900080005000900010005000800030001000800070005000100040005000700060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 314.0761
+      y: 11.07612
+      width: 296.91098
+      height: 226.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 492.9, z: 32, w: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ghost_Doll_Stand_2
+  m_Rect:
+    serializedVersion: 2
+    x: 80
+    y: 11.07612
+    width: 40
+    height: 138.92387
+  m_Offset: {x: 0, y: -80.53806}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c8a2c67a3659960499b3fe8c8e60270b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 4.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 4.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1875, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 0.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 4.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.625, y: 4.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.625, y: 2.34375, z: 0}
+    indices: 080007000500060005000700000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 80
+      y: 11.07612
+      width: 40
+      height: 138.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 100, z: 32, w: 0}

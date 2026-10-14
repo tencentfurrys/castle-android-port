@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_H02-1_6
+  m_Rect:
+    serializedVersion: 2
+    x: 267.0429
+    y: 0
+    width: 114.914185
+    height: 92
+  m_Offset: {x: -12.148986, y: -58.935196}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: bc0e1bc09b6c9d84eba8f468e2a2b868, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.47971916, y: 3.2792249, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1672192, y: 1.747975, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1359692, y: 1.466725, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4172192, y: 2.7792249, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4172192, y: 1.966725, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1765308, y: 3.2792249, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8952808, y: 0.404225, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1765308, y: 0.497975, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2609692, y: 1.747975, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1672192, y: 1.716725, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3547192, y: 0.404225, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3859692, y: 1.716725, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4172192, y: 1.529225, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4172192, y: 0.904225, z: 0}
+    indices: 0d000c000a000b000a000c0008000a000b0002000a00080006000a000200090002000800000006000200050006000000070006000500040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 267.0429
+      y: 0
+      width: 114.914185
+      height: 92
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 312.351, z: 32, w: -12.9352}

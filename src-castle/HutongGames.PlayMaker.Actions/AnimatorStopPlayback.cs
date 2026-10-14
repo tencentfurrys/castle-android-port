@@ -1,0 +1,34 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Stops the animator playback mode. When playback stops, the avatar resumes getting control from game logic")]
+[ActionCategory("Animator")]
+public class AnimatorStopPlayback : FsmStateAction
+{
+	[CheckForComponent(typeof(Animator))]
+	[Tooltip("The target. An Animator component and a PlayMakerAnimatorProxy component are required")]
+	[RequiredField]
+	public FsmOwnerDefault gameObject;
+
+	public override void Reset()
+	{
+		gameObject = null;
+	}
+
+	public override void OnEnter()
+	{
+		GameObject ownerDefaultTarget = Fsm.GetOwnerDefaultTarget(gameObject);
+		if (ownerDefaultTarget == null)
+		{
+			Finish();
+			return;
+		}
+		Animator component = ownerDefaultTarget.GetComponent<Animator>();
+		if (component != null)
+		{
+			component.StopPlayback();
+		}
+		Finish();
+	}
+}

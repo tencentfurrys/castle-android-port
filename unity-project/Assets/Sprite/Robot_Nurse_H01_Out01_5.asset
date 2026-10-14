@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Nurse_H01_Out01_5
+  m_Rect:
+    serializedVersion: 2
+    x: 36
+    y: 129.05132
+    width: 35.85065
+    height: 27.897367
+  m_Offset: {x: -4.9257255, y: -43.991997}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 80bc8da9eceb8614d8a8d22aaa75e8dd, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.6250125, y: 1.0934999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7187625, y: 0.9684999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7187625, y: 1.0622499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6250125, y: 0.9372499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625125, y: 1.0309999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21873748, y: 1.0309999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.12498748, y: 0.9684999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.12498748, y: 1.0309999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21873748, y: 0.9372499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24998748, y: 1.0622499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28123748, y: 1.0309999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21873748, y: 1.0934999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.12498748, y: 1.0622499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46876252, y: 1.3122499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37501252, y: 1.2809999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37501252, y: 1.2184999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5000125, y: 1.5934999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5000125, y: 1.3434999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21876252, y: 1.8122499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15626252, y: 1.0309999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15623748, y: 1.8122499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40623748, y: 1.6559999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40623748, y: 1.2497499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6562625, y: 1.3122499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5937625, y: 1.1559999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6562625, y: 1.2184999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625125, y: 1.3434999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5312625, y: 1.3434999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40626252, y: 1.1559999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37501252, y: 1.2184999, z: 0}
+    indices: 07000c0013001d000f001c000d001c000f0018001c000d001b0018000d001a0018001b00170018001a001900180017001600150009001400090015000b00090014000c000b00140012000c00140013000c0012000f00130012000e000f00120010000e0012000d000e00100011000d0010000f000e000d0009000b000500070005000b000c0007000b000a0009000800050008000900060008000500070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 36
+      y: 129.05132
+      width: 35.85065
+      height: 27.897367
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 48.9996, z: 32, w: 99.008}

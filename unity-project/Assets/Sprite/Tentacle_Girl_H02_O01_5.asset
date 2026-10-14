@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tentacle_Girl_H02_O01_5
+  m_Rect:
+    serializedVersion: 2
+    x: 483.0129
+    y: 90
+    width: 221.93578
+    height: 65.881676
+  m_Offset: {x: -71.67599, y: -45.92484}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 28f027bff9dfdca4f80b58c12381581a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 5.7092247, y: 1.1245, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0842247, y: 0.99950004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.7092247, y: 0.40575004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.9904747, y: 1.03075, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2717247, y: 1.21825, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.9279747, y: 0.96825004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0842247, y: 0.90575004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.9904747, y: 0.87450004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1779747, y: 1.1245, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8654747, y: 2.03075, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8654747, y: 2.1245, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7717247, y: 1.9995, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7092247, y: 2.09325, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0407753, y: 2.46825, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2282753, y: 2.3745, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2282753, y: 0.40575004, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3342247, y: 1.71825, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3342247, y: 1.34325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3342247, y: 1.65575, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2092247, y: 2.46825, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3654747, y: 1.7495, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7717247, y: 2.15575, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3967247, y: 1.59325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4279747, y: 1.812, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4904747, y: 1.6245, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5217247, y: 1.7495, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3967247, y: 1.59325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3967247, y: 1.4995, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3967247, y: 1.562, z: 0}
+    indices: 0c0015000b0009000b0015000a0009001500110012001b0016001b0012001c001b0016001400170016001a001600170018001a001700190018001700120010001600140016001000130015000d000c000d0015000a001500130008000a0013001100080013001000110013001400100013001200110010000500030007000600070003000100060003000e0008000f0007000f00080002000f0007000d0008000e000c0008000d000b0008000c00090008000b000a0008000900040007000800050007000400060002000700010002000600000003000400050004000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 483.0129
+      y: 90
+      width: 221.93578
+      height: 65.881676
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 522.3048, z: 32, w: 77.016}

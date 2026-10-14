@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SS_Walk_01_9
+  m_Rect:
+    serializedVersion: 2
+    x: 488.02676
+    y: 23.07612
+    width: 90.93034
+    height: 95.84776
+  m_Offset: {x: 6.508062, y: -71}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4281e3d6749d82449a80c0358e157cdb, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.21875, y: 3.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.96875, y: 0.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.21875, y: 0.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.03125, y: 3.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.625, y: 2.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.625, y: 0.71875, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 488.02676
+      y: 23.07612
+      width: 90.93034
+      height: 95.84776
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 540, z: 32, w: 0}

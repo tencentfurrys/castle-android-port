@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Nurse_Walk_D_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 12
+    height: 18
+  m_Offset: {x: -6.0036, y: -132.99841}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a609fff81d8588e4d9b8c2677bbf689e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.00011250377, y: 4.4374504, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3751125, y: 4.4374504, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.00011250377, y: 3.8749504, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3751125, y: 3.8749504, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 12
+      height: 18
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: -0.0036001205, z: 32, w: -123.99841}

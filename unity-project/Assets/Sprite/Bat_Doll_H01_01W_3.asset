@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bat_Doll_H01_01W_3
+  m_Rect:
+    serializedVersion: 2
+    x: 132.01291
+    y: 35.012913
+    width: 25.910965
+    height: 44.868763
+  m_Offset: {x: -4.968392, y: -57.447292}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d24fd33c1d1b27f4284e47546107c7bd, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 1.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21875, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.375, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 2.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1875, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1875, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 2.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 1.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 1.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 1.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 1.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 1.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.125, y: 1.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09375, y: 1.3125, z: 0}
+    indices: 100003000f000e000f00030001000e0003000d000e0001000b000d00010002000b0001000a000b0002000c000b000a00090008000700060007000800030007000600040003000600000003000400020000000400050002000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 132.01291
+      y: 35.012913
+      width: 25.910965
+      height: 44.868763
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 140, z: 32, w: 0}

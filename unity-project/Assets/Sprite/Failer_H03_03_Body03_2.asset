@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Failer_H03_03_Body03_2
+  m_Rect:
+    serializedVersion: 2
+    x: 222.02675
+    y: 0
+    width: 107.97325
+    height: 110
+  m_Offset: {x: -1.0133729, y: -55}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1636508ef8fda9c4f8b9358547c06a46, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.03125, y: 3.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.71875, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.71875, y: 3.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.375, y: 2.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4375, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.59375, y: 0.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.65625, y: 0.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.65625, y: 0.5625, z: 0}
+    indices: 070006000500030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 222.02675
+      y: 0
+      width: 107.97325
+      height: 110
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 275, z: 32, w: 0}

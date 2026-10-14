@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magic_Doll_H01_Out01_2
+  m_Rect:
+    serializedVersion: 2
+    x: 161.031
+    y: 168.07613
+    width: 69.892876
+    height: 146.84775
+  m_Offset: {x: 4.022557, y: -81.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 25b084dd0c6921544af6d4f34a885a81, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.71875, y: 4.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.96875, y: 0.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.96875, y: 1.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8125, y: 0.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.21875, y: 4.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.21875, y: 0.6875, z: 0}
+    indices: 050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 161.031
+      y: 168.07613
+      width: 69.892876
+      height: 146.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 200, z: 32, w: 160}

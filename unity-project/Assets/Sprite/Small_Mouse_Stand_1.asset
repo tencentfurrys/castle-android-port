@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Small_Mouse_Stand_1
+  m_Rect:
+    serializedVersion: 2
+    x: 52.069805
+    y: 38
+    width: 32.854073
+    height: 32.973248
+  m_Offset: {x: 0.50315803, y: -29.482626}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c0e98d407be6ee74bb48c024d5f31fea, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 1.2186251, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 0.406125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 0.468625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28125, y: 1.4061251, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09375, y: 1.4373751, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09375, y: 0.406125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.03125, y: 0.531125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 1.4373751, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 0.406125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 0.468625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 1.1561251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 0.406125, z: 0}
+    indices: 0b000a000800060008000a00070006000a00090008000600070004000600050006000400010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 52.069805
+      y: 38
+      width: 32.854073
+      height: 32.973248
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 69, z: 32, w: 25.004}

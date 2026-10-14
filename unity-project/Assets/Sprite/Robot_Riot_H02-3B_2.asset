@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-3B_2
+  m_Rect:
+    serializedVersion: 2
+    x: 65.07612
+    y: 37.036285
+    width: 30.880972
+    height: 34.963715
+  m_Offset: {x: -7.510204, y: -111.516945}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2fcb202fbba7f6c47a594e71e396c865, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.40604997, y: 4.031213, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12479997, y: 3.2187126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.24979997, y: 3.2499626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.062299967, y: 3.0312126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12479997, y: 3.0937126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.12520003, y: 3.0312126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.18770003, y: 3.1874626, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25020003, y: 4.031213, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25020003, y: 3.5937126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71854997, y: 3.7812126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.49979997, y: 2.9374626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71854997, y: 3.0937126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21854997, y: 2.9374626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18729997, y: 3.1249626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15604997, y: 2.9999626, z: 0}
+    indices: 0e000d000c0002000c000d000a000c00020000000a00020009000a0000000b000a000900080007000600000006000700050006000000010005000000030005000100040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 65.07612
+      y: 37.036285
+      width: 30.880972
+      height: 34.963715
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 73.0064, z: 32, w: -56.998802}

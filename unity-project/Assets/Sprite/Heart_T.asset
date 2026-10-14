@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Heart_T
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 13.051316
+    width: 256
+    height: 228.92194
+  m_Offset: {x: 0, y: 0.4877201}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 13.212903
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9a211a99e52014a49b7c55679321e49e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 9.6875, y: 6.130371, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7.9467773, y: -2.9516602, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.6875, y: -0.83251953, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.8115234, y: 8.62793, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.616699, y: -5.9033203, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.2705078, y: 8.62793, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37841797, y: -8.703613, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 7.1899414, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15136719, y: -8.703613, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6650391, y: -8.022461, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.421875, y: 8.62793, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.357422, y: 8.62793, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.4331055, y: -4.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9.082031, y: 6.9628906, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9.6875, y: 5.373535, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9.6875, y: -0.68115234, z: 0}
+    indices: 0f000e000c000d000c000e000b000c000d0009000c000b000a0009000b00070009000a00080009000700060008000700050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 13.051316
+      width: 256
+      height: 228.92194
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 13.212903, y: 128, z: 13.212903, w: 128}

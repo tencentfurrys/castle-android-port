@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mother_H03_Water03_11
+  m_Rect:
+    serializedVersion: 2
+    x: 171.07613
+    y: 0
+    width: 32.872562
+    height: 36.957092
+  m_Offset: {x: -0.51240724, y: -18.478546}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e9cf31e40dbe36c48b6c07df7021105a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.53125, y: 1.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53125, y: 0.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34375, y: 1.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 1.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5, y: 0.03125, z: 0}
+    indices: 070006000500040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 171.07613
+      y: 0
+      width: 32.872562
+      height: 36.957092
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 187, z: 32, w: 0}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Main_Helmet_Action_4
+  m_Rect:
+    serializedVersion: 2
+    x: 296.02676
+    y: 0
+    width: 73.97325
+    height: 160
+  m_Offset: {x: -5.0083838, y: -93}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 688cb4c60ee66b446b1d046d353bda38, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.1560936, y: 5.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3123436, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3123436, y: 3.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0001564, y: 5.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0001564, y: 0.40625, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 296.02676
+      y: 0
+      width: 73.97325
+      height: 160
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 328.005, z: 32, w: -13}

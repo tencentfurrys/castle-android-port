@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sister_H02_C_Bat_1
+  m_Rect:
+    serializedVersion: 2
+    x: 52
+    y: 12.211795
+    width: 50
+    height: 45.57641
+  m_Offset: {x: -25, y: -34.999996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2bb7280e876a3f44a80a8e8cfaa15893, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.28125, y: 0.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1875, y: 0.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15625, y: 0.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5625, y: 0.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.46875, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5625, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1875, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15625, y: 1.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 1.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 0.9375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 0.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.125, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 0.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 0.375, z: 0}
+    indices: 0e000d000c0003000c000d0001000c0003000b000c00010002000b0001000a0009000300080003000900070003000800000003000700020000000700050002000700040005000700060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 52
+      y: 12.211795
+      width: 50
+      height: 45.57641
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 52, z: 32, w: 0}

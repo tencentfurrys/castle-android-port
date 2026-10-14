@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Nurse_Walk_5
+  m_Rect:
+    serializedVersion: 2
+    x: 226.07613
+    y: 0
+    width: 39.86975
+    height: 148
+  m_Offset: {x: 1.9839966, y: -86.99884}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 19ec2a782ade2eb40a0e97b0dd285399, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.5626564, y: 4.8124638, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5001564, y: 0.40621376, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5626564, y: 1.9374638, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4689064, y: 5.0312138, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.2185936, y: 5.0312138, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.2810936, y: 0.40621376, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5935936, y: 0.62496376, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6873436, y: 4.7812138, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6873436, y: 3.0624638, z: 0}
+    indices: 080007000600040006000700050006000400010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 226.07613
+      y: 0
+      width: 39.86975
+      height: 148
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 247.995, z: 32, w: -12.99884}

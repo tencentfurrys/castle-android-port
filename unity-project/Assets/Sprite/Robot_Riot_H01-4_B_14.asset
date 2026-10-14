@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H01-4_B_14
+  m_Rect:
+    serializedVersion: 2
+    x: 272
+    y: 292
+    width: 61.973248
+    height: 141.97325
+  m_Offset: {x: -3.97701, y: -83.98794}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2b961eb9040eb7f46bec5cccca785077, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.9996996, y: 3.531291, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0934496, y: 2.968791, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0934496, y: 3.406291, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9059496, y: 1.500041, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6559496, y: 4.781291, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9684496, y: 1.312541, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9371996, y: 0.406291, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9996996, y: 0.437541, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2184496, y: 4.843791, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3128004, y: 4.843791, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5003004, y: 4.625041, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6878004, y: 4.218791, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8440504, y: 3.750041, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8440504, y: 0.406291, z: 0}
+    indices: 0d000c0006000b0006000c000a0006000b00090006000a00080006000900040006000800030006000400050006000300070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 272
+      y: 292
+      width: 61.973248
+      height: 141.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 299.0096, z: 32, w: 278.9987}

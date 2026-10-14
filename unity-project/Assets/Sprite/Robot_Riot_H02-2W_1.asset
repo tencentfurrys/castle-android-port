@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-2W_1
+  m_Rect:
+    serializedVersion: 2
+    x: 38.076122
+    y: 122
+    width: 37.923878
+    height: 100.92388
+  m_Offset: {x: 10.962938, y: -50.46194}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: fe47071153d54184999690c64b7d4f5c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.031218767, y: 1.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.24996877, y: 0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.24996877, y: 1.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.06253123, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28128123, y: 1.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.50003123, y: 1.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.56253123, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.68753123, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.68753123, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12496877, y: 3.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18746877, y: 2.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18746877, y: 3.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09371877, y: 2.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.031218767, y: 3.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031281233, y: 3.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031281233, y: 3.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.31253123, y: 3.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25003123, y: 2.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25003123, y: 2.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.43753123, y: 2.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.71878123, y: 3.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.78128123, y: 2.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.84378123, y: 3.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.93753123, y: 2.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.93753123, y: 2.53125, z: 0}
+    indices: 1800170015001600150017001400150016001300150014001000130014001100130010001200110010000f000e000c000d000c000e0009000c000d000a000c0009000b000a000900080007000300060003000700050003000600040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 38.076122
+      y: 122
+      width: 37.923878
+      height: 100.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 68.001, z: 32, w: 122}

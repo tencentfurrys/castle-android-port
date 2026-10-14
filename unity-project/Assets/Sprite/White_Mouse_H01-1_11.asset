@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_H01-1_11
+  m_Rect:
+    serializedVersion: 2
+    x: 482.0761
+    y: 0
+    width: 117.923874
+    height: 175.97325
+  m_Offset: {x: -5.418053, y: -101.01063}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 05f27902cecdaa542b202d6378a93692, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.4181252, y: 5.81325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6056252, y: 5.0945, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6681252, y: 5.5945, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3868752, y: 4.9695, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3243752, y: 4.9695, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0431252, y: 5.907, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6681252, y: 4.907, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 0.40700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 4.657, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4493752, y: 4.9695, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.58187485, y: 5.907, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4256248, y: 4.2195, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5818748, y: 0.40700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6756248, y: 2.37575, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6756248, y: 0.59450006, z: 0}
+    indices: 0e000d000c000b000c000d0007000c000b000a0007000b00050007000a00040007000500030007000400090007000300060007000900080007000600050000000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 482.0761
+      y: 0
+      width: 117.923874
+      height: 175.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 535.62, z: 32, w: -13.024002}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RN_Ghost_H01_O_3
+  m_Rect:
+    serializedVersion: 2
+    x: 0.076120496
+    y: 0
+    width: 182.84775
+    height: 197.92387
+  m_Offset: {x: 9.50128, y: -111.95667}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6de02c4dfb6ad534b9a522f2766aef11, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.5624602, y: 2.3435855, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.4999602, y: 0.4060855, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.5624602, y: 0.4998355, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1874602, y: 3.5623355, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31246018, y: 6.5935855, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5625398, y: 6.5935855, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.9687898, y: 0.4060855, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.1562898, y: 2.7185855, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.1562898, y: 0.9060855, z: 0}
+    indices: 080007000600050006000700010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.076120496
+      y: 0
+      width: 182.84775
+      height: 197.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 101.001274, z: 32, w: -12.994736}

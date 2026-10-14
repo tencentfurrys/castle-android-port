@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Molij03_H01_02_2
+  m_Rect:
+    serializedVersion: 2
+    x: 165.07613
+    y: 0
+    width: 79.84776
+    height: 98
+  m_Offset: {x: -1.0004044, y: -92.0122}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7c2b9c6394534834597e8eae05019574, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.7812624, y: 2.7503812, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7500124, y: 2.7816312, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6250124, y: 2.8753812, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0312624, y: 3.8128812, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125124, y: 2.7191312, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0937624, y: 2.5316312, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4687624, y: 4.4066315, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2812624, y: 1.3441312, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2812624, y: 2.0941312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5312376, y: 4.4066315, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2187376, y: 2.8441312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2187376, y: 1.3441312, z: 0}
+    indices: 0b000a000700090007000a00020007000900060002000900000007000200080007000000060003000200010002000300000001000300040000000300050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 165.07613
+      y: 0
+      width: 79.84776
+      height: 98
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 203.9996, z: 32, w: -43.0122}

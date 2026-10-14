@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-2_4
+  m_Rect:
+    serializedVersion: 2
+    x: 106
+    y: 0
+    width: 105.94027
+    height: 172
+  m_Offset: {x: 10.036261, y: -86.997604}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ea6269e294ed8d545a15c1456ebfbb1d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.1248002, y: 4.0311747, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3435502, y: 0.031174898, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3435502, y: 2.499925, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9060502, y: 0.031174898, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6873002, y: 0.1874249, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4373002, y: 0.6561749, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4689498, y: 5.4061747, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4685502, y: 0.2811749, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7501998, y: 0.031174898, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4064498, y: 5.4061747, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6251998, y: 0.031174898, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.8751998, y: 5.1561747, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9689498, y: 4.9061747, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9689498, y: 2.906175, z: 0}
+    indices: 0d000c000a000b000a000c0009000a000b0008000a000900060008000900070008000600050007000600060000000500040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 106
+      y: 0
+      width: 105.94027
+      height: 172
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 169.0064, z: 32, w: -0.99759674}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-3_6
+  m_Rect:
+    serializedVersion: 2
+    x: 212
+    y: 0
+    width: 104.94027
+    height: 174
+  m_Offset: {x: 10.536275, y: -88.0005}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7c693a440876cd748a6645de047c60f1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.2497997, y: 4.7187657, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3122997, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3122997, y: 4.3437657, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28145027, y: 5.4687657, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3439503, y: 5.4687657, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6877003, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.8752003, y: 5.1875157, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9689503, y: 5.0312657, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9689503, y: 1.9062657, z: 0}
+    indices: 080007000500060005000700040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 212
+      y: 0
+      width: 104.94027
+      height: 174
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 275.0064, z: 32, w: -1.0005035}

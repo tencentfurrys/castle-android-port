@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DFQueen_Hand142_4
+  m_Rect:
+    serializedVersion: 2
+    x: 16.07612
+    y: 1.0761205
+    width: 78.89713
+    height: 50.923878
+  m_Offset: {x: -5.5246844, y: -26.53806}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 54e0bafa4da1b9047a0e755ad160793a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.375, y: 1.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.40625, y: 0.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.40625, y: 1.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.25, y: 0.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6875, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 0.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21875, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 0.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625, y: 1.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625, y: 0.375, z: 0}
+    indices: 090008000700060007000800050007000600040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 16.07612
+      y: 1.0761205
+      width: 78.89713
+      height: 50.923878
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 50, z: 32, w: 0}

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Mermaid_Swin_R_5
+  m_Rect:
+    serializedVersion: 2
+    x: 145.01291
+    y: 21.07612
+    width: 134.98709
+    height: 30.847757
+  m_Offset: {x: -54.50946, y: -63.503605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a4dbb07527ff22d42a6c3ae480b20319, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.906344, y: 1.7813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.000094, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.000094, y: 1.7501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.906344, y: 1.5001125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.781344, y: 1.5001125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.718844, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.718844, y: 1.5626125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1875939, y: 1.7813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2188439, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2188439, y: 1.6876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1250939, y: 1.5313625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0000939, y: 1.7813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0000939, y: 1.5313625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.90634394, y: 1.6876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.90634394, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.50009394, y: 1.8126125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53134394, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53134394, y: 1.7501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43759394, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31259394, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28134394, y: 1.8126125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21884394, y: 1.7501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21884394, y: 1.6876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21865606, y: 1.8438625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15615606, y: 1.7188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15615606, y: 1.7813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21865606, y: 1.6563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.31240606, y: 1.8438625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.37490606, y: 1.6563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40615606, y: 1.7501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.812594, y: 2.2813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.781344, y: 1.9063625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.812594, y: 1.9688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.562594, y: 1.9063625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.406344, y: 2.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.031344, y: 2.0001125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.968844, y: 2.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.968844, y: 2.1876125, z: 0}
+    indices: 2500240023002200230024002100230022001e00210022001f0021001e0020001f001e001d001b001c001a001c001b0017001a001b0018001a0017001900180017001600150013001400130015000f0013001400120013000f00100012000f00110010000f000e000d000c000b000c000d000a000c000b0007000a000b0008000a000700090008000700060005000400000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 145.01291
+      y: 21.07612
+      width: 134.98709
+      height: 30.847757
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 157.997, z: 32, w: -27.003601}

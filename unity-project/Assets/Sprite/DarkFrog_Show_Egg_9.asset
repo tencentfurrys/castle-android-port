@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DarkFrog_Show_Egg_9
+  m_Rect:
+    serializedVersion: 2
+    x: 110
+    y: 140
+    width: 80
+    height: 99.97325
+  m_Offset: {x: -2.0079947, y: -62.98663}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 451e5fd5374c9ed498448b5dfa955de2, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.12524986, y: 3.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3127499, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3127499, y: 2.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.78100014, y: 3.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.99975014, y: 3.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1872501, y: 2.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1872501, y: 0.40625, z: 0}
+    indices: 060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 110
+      y: 140
+      width: 80
+      height: 99.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 147.992, z: 32, w: 127}

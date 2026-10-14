@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_Jump_3
+  m_Rect:
+    serializedVersion: 2
+    x: 288
+    y: 0
+    width: 96
+    height: 142
+  m_Offset: {x: -6, y: -81.0039}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 422701c252acf8e4baa43c467b37f74b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 4.750122, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 1.0626218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.0625, y: 1.7188718, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.84375, y: 3.4376218, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6875, y: 4.750122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.875, y: 0.31262183, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6875, y: 2.1876218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21875, y: 1.5001218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 1.3438718, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 0.31262183, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 0.31262183, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 0.46887183, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9375, y: 0.31262183, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3125, y: 1.4063718, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3125, y: 0.50012183, z: 0}
+    indices: 0e000d000c0003000c000d000a000c00030001000a0003000b000a000100090008000500070005000800020005000700000005000200040005000000060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 96
+      height: 142
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 330, z: 32, w: -10.003899}

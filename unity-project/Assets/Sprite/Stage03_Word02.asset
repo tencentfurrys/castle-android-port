@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Stage03_Word02
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 391
+    height: 35
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 3e3bf91c28eeb5c46a96faba70906350, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 4.984375, y: 0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.984375, y: -0.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.984375, y: -0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.890625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.265625, y: 0.515625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.078125, y: 0.515625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.078125, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.015625, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.984375, y: 0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.984375, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.109375, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.015625, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.109375, y: -0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.609375, y: 0.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.265625, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.484375, y: -0.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.109375, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.046875, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.984375, y: 0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.453125, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5.515625, y: -0.265625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.109375, y: 0.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.078125, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.078125, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.140625, y: 0.046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.078125, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.234375, y: -0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.515625, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.671875, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.828125, y: 0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.078125, y: 0.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.109375, y: 0.015625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.109375, y: -0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.796875, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.578125, y: -0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.578125, y: 0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.796875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.953125, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.984375, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.140625, y: -0.046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.140625, y: -0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.015625, y: -0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.984375, y: -0.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.984375, y: -0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.015625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.046875, y: 0.078125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.515625, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.515625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.578125, y: 0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.984375, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.046875, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.765625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.421875, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.421875, y: -0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.421875, y: -0.265625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.546875, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.609375, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.046875, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.421875, y: 0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.578125, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.421875, y: -0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.765625, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.859375, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.015625, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.015625, y: -0.265625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.421875, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.390625, y: 0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.671875, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.390625, y: -0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.203125, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.296875, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.296875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.421875, y: 0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.546875, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.640625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.546875, y: -0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.234375, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.265625, y: 0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.265625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.421875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.984375, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.015625, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.015625, y: 0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.078125, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.046875, y: 0.515625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.046875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.609375, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.671875, y: 0.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.140625, y: 0.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.578125, y: 0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.671875, y: 0.265625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.578125, y: 0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.671875, y: -0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.234375, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.234375, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.234375, y: -0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.796875, y: 0.296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.796875, y: -0.328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.796875, y: 0.234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.671875, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.546875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.484375, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.421875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.234375, y: 0.234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.984375, y: -0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.015625, y: -0.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.015625, y: -0.390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.921875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.421875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.296875, y: -0.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.046875, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.109375, y: -0.453125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.890625, y: 0.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.328125, y: -0.265625, z: 0}
+    indices: 6f006d007100610062006e0070006e0062006d006e00700009006d0070006f006e006d006c006d0009006b006c00090068006b0009006a0007000600680009006a0007006a0009006b00680069006a00690068005f005d006600670066005d0065006600670064006600650063006400650061006400630060006100630062006100600052005c0051005e0051005c005b005c0052005a005e005c0057005e005a0058005e0057005d005e0058005f005e005d005c005b005a005900560057005800570056005500540051005300510054005000510053005200510050004f003c004e0044004e003c0042004e00440043004e0042004d004e0043004e004d004a004c004a004d0049004a004c004b004a0049003600340047004800470034004600470048004500470046003f0045004600400045003f003c003a004400420044003a003a004100420043004200410040003f003e003d003e003f003b003e003d003a003b003d003c003b003a003200390031003700310039003300310037003800330037003500380037003400350037003600350034002d002e0032002b00310033002d00320029003100290032002b0029003100220023002f0030002f0023002e002f0030002c002f002e002d002c002e0029002c002d002a002c0029002b002a00290028002700260018002600270016002600180017002600160025002600170024002600250021002400250022002400210023002200210020001f001c001e001c001f001d001c001e001b001c001d001a001c001b0019001a001b0018001a0019001500180019001700150019001800150016001700160015000e000f00140013000d000b000200000010001200100000001100100012000d00100011000a000d0011000e0010000d000f000e000d000b000d000a000c000b000a00090008000700050007000800060007000500030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 391
+      height: 35
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 195.5, z: 32, w: 17.5}

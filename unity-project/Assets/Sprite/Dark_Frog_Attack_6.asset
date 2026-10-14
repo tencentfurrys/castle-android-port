@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dark_Frog_Attack_6
+  m_Rect:
+    serializedVersion: 2
+    x: 220
+    y: 0
+    width: 110
+    height: 50
+  m_Offset: {x: -20.998993, y: -37.95}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9eae199711b76d348bb560b66bc062d3, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.7187815, y: 1.5609375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875315, y: 1.3421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875315, y: 1.4359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7812815, y: 1.2484375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9687815, y: 1.4359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9687185, y: 0.43593752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9374685, y: 0.5296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8437185, y: 0.46718752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6249685, y: 1.0296875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5312185, y: 0.43593752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7499685, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46871853, y: 0.8109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43746853, y: 0.46718752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43746853, y: 0.9671875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46871853, y: 0.8734375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46871853, y: 0.9046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37496853, y: 1.0921875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37496853, y: 0.6234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43746853, y: 0.49843752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43746853, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625315, y: 1.9671875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6250315, y: 0.8421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0312815, y: 1.1859375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625315, y: 0.9046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625315, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6562815, y: 1.0609375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875315, y: 1.1234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1562185, y: 0.6234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2812185, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2812185, y: 0.49843752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1562185, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0312185, y: 0.6234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.3124685, y: 1.9671875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8124685, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37496853, y: 1.1546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.3749685, y: 0.40468752, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.3749685, y: 1.9359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9687185, y: 0.40468752, z: 0}
+    indices: 250005001e001c001d002300200023001d002400230020002000220014001100140022001000110022000d002200200008000d0020000a000800200007000a00200021000a0007000600070020001f00060020001b001f0020001d001b00200006001f0005001e0005001f001b001e001f001c001e001b001d001c001b001a00010019000200190001001400190002001500190014001800170013001500130017001600150017000400150016000300150004001400130015001100130014001200130011000c0013001200110010000e000d000e0010000f000e000d000c000b000900080009000b000a0009000800070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 220
+      y: 0
+      width: 110
+      height: 50
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 254.001, z: 32, w: -12.950001}

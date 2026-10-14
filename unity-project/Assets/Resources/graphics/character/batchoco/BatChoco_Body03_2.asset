@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BatChoco_Body03_2
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026750982
+    y: 8.07612
+    width: 78.93034
+    height: 19.89713
+  m_Offset: {x: 0.5080749, y: 1.9753146}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 56900d975b173a64888e46a7b1f230a7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -1.25, y: 0.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.21875, y: -0.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.21875, y: 0.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.25, y: -0.375, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026750982
+      y: 8.07612
+      width: 78.93034
+      height: 19.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 40, z: 32, w: 20}

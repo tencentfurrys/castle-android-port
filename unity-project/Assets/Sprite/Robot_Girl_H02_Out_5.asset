@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Girl_H02_Out_5
+  m_Rect:
+    serializedVersion: 2
+    x: 1.0129125
+    y: 4.0513167
+    width: 32.910965
+    height: 24.93577
+  m_Offset: {x: 1.5376052, y: -41.5176}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c83991e4cbf2d9947832ccf586233c9d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.37481248, y: 1.5936999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46856248, y: 1.2811999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46856248, y: 1.4061999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31231248, y: 1.6561999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31231248, y: 0.93744993, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21856248, y: 0.90619993, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18731248, y: 1.6561999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.37518752, y: 0.90619993, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.46893752, y: 1.4999499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5626875, y: 1.4374499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5626875, y: 1.2499499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5001875, y: 1.6874499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40643752, y: 1.5624499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40643752, y: 1.6561999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5001875, y: 1.5311999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5626875, y: 1.6249499, z: 0}
+    indices: 0f000b000e000c000e000b000d000c000b000a0009000700080007000900060007000800050007000600030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 1.0129125
+      y: 4.0513167
+      width: 32.910965
+      height: 24.93577
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 19.006, z: 32, w: -24.998398}

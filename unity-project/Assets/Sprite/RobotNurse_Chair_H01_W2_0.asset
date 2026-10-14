@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RobotNurse_Chair_H01_W2_0
+  m_Rect:
+    serializedVersion: 2
+    x: 6.026751
+    y: 80.07612
+    width: 22.89713
+    height: 21.910967
+  m_Offset: {x: -0.47536486, y: -52.450207}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6e2e348d54d7b6b4c8bed7b8d88d6261, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.37500155, y: 1.9818313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21875155, y: 1.2943313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37500155, y: 1.5130813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.12499845, y: 1.2943313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34374845, y: 1.9818313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34374845, y: 1.4505813, z: 0}
+    indices: 050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 6.026751
+      y: 80.07612
+      width: 22.89713
+      height: 21.910967
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 16.99995, z: 32, w: 38.581398}

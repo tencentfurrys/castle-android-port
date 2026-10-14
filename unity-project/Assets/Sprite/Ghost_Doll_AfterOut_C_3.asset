@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ghost_Doll_AfterOut_C_3
+  m_Rect:
+    serializedVersion: 2
+    x: 151.10889
+    y: 63.076122
+    width: 47.81499
+    height: 42.864147
+  m_Offset: {x: -0.016381774, y: -84.508194}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e4589812c3b3a374198dd5f3419cbb9a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.75, y: 3.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.65625, y: 2.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.75, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53125, y: 1.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 3.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 3.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 1.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34375, y: 3.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.75, y: 2.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.75, y: 2.21875, z: 0}
+    indices: 090008000600070006000800050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 151.10889
+      y: 63.076122
+      width: 47.81499
+      height: 42.864147
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 175, z: 32, w: 0}

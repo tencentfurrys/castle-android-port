@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps: []
+  m_LightProbes: {fileID: 25800000, guid: 99fedc9457bbb8444b542545e2dde915, type: 2}
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 109582
+    targetPrefab: 0
+  - targetObject: 109583
+    targetPrefab: 0
+  - targetObject: 109584
+    targetPrefab: 0
+  - targetObject: 109585
+    targetPrefab: 0
+  - targetObject: 109586
+    targetPrefab: 0
+  - targetObject: 109587
+    targetPrefab: 0
+  - targetObject: 109588
+    targetPrefab: 0
+  - targetObject: 109589
+    targetPrefab: 0
+  - targetObject: 109590
+    targetPrefab: 0
+  - targetObject: 109591
+    targetPrefab: 0
+  - targetObject: 109592
+    targetPrefab: 0
+  - targetObject: 109593
+    targetPrefab: 0
+  - targetObject: 109594
+    targetPrefab: 0
+  - targetObject: 109595
+    targetPrefab: 0
+  - targetObject: 109596
+    targetPrefab: 0
+  - targetObject: 109597
+    targetPrefab: 0
+  - targetObject: 109598
+    targetPrefab: 0
+  - targetObject: 109599
+    targetPrefab: 0
+  - targetObject: 109600
+    targetPrefab: 0
+  - targetObject: 109601
+    targetPrefab: 0
+  - targetObject: 109602
+    targetPrefab: 0
+  - targetObject: 109603
+    targetPrefab: 0
+  - targetObject: 109604
+    targetPrefab: 0
+  - targetObject: 109605
+    targetPrefab: 0
+  - targetObject: 109606
+    targetPrefab: 0
+  - targetObject: 109607
+    targetPrefab: 0
+  - targetObject: 109608
+    targetPrefab: 0
+  - targetObject: 109609
+    targetPrefab: 0
+  - targetObject: 109610
+    targetPrefab: 0
+  - targetObject: 109611
+    targetPrefab: 0
+  - targetObject: 109612
+    targetPrefab: 0
+  - targetObject: 109613
+    targetPrefab: 0
+  - targetObject: 109614
+    targetPrefab: 0
+  - targetObject: 109615
+    targetPrefab: 0
+  - targetObject: 109616
+    targetPrefab: 0
+  - targetObject: 109617
+    targetPrefab: 0
+  - targetObject: 109618
+    targetPrefab: 0
+  - targetObject: 109619
+    targetPrefab: 0
+  - targetObject: 109620
+    targetPrefab: 0
+  - targetObject: 109621
+    targetPrefab: 0
+  - targetObject: 109622
+    targetPrefab: 0
+  - targetObject: 109623
+    targetPrefab: 0
+  - targetObject: 109624
+    targetPrefab: 0
+  - targetObject: 109625
+    targetPrefab: 0
+  - targetObject: 109626
+    targetPrefab: 0
+  - targetObject: 109627
+    targetPrefab: 0
+  - targetObject: 109628
+    targetPrefab: 0
+  - targetObject: 109629
+    targetPrefab: 0
+  - targetObject: 109630
+    targetPrefab: 0
+  - targetObject: 109631
+    targetPrefab: 0
+  - targetObject: 109632
+    targetPrefab: 0
+  - targetObject: 109633
+    targetPrefab: 0
+  - targetObject: 109634
+    targetPrefab: 0
+  - targetObject: 109635
+    targetPrefab: 0
+  - targetObject: 109636
+    targetPrefab: 0
+  - targetObject: 109637
+    targetPrefab: 0
+  - targetObject: 109638
+    targetPrefab: 0
+  - targetObject: 109639
+    targetPrefab: 0
+  - targetObject: 109640
+    targetPrefab: 0
+  - targetObject: 109641
+    targetPrefab: 0
+  - targetObject: 109642
+    targetPrefab: 0
+  - targetObject: 109643
+    targetPrefab: 0
+  - targetObject: 109644
+    targetPrefab: 0
+  - targetObject: 109645
+    targetPrefab: 0
+  - targetObject: 109646
+    targetPrefab: 0
+  - targetObject: 109647
+    targetPrefab: 0
+  - targetObject: 109648
+    targetPrefab: 0
+  - targetObject: 109649
+    targetPrefab: 0
+  - targetObject: 109650
+    targetPrefab: 0
+  - targetObject: 109651
+    targetPrefab: 0
+  - targetObject: 109652
+    targetPrefab: 0
+  - targetObject: 109653
+    targetPrefab: 0
+  - targetObject: 109654
+    targetPrefab: 0
+  - targetObject: 109655
+    targetPrefab: 0
+  - targetObject: 109656
+    targetPrefab: 0
+  - targetObject: 109657
+    targetPrefab: 0
+  - targetObject: 109658
+    targetPrefab: 0
+  - targetObject: 109659
+    targetPrefab: 0
+  - targetObject: 109660
+    targetPrefab: 0
+  - targetObject: 109661
+    targetPrefab: 0
+  - targetObject: 109662
+    targetPrefab: 0
+  - targetObject: 109663
+    targetPrefab: 0
+  - targetObject: 109664
+    targetPrefab: 0
+  - targetObject: 109665
+    targetPrefab: 0
+  - targetObject: 109666
+    targetPrefab: 0
+  - targetObject: 109667
+    targetPrefab: 0
+  - targetObject: 109668
+    targetPrefab: 0
+  - targetObject: 109669
+    targetPrefab: 0
+  - targetObject: 109670
+    targetPrefab: 0
+  - targetObject: 109671
+    targetPrefab: 0
+  - targetObject: 109672
+    targetPrefab: 0
+  - targetObject: 109673
+    targetPrefab: 0
+  - targetObject: 109674
+    targetPrefab: 0
+  - targetObject: 109675
+    targetPrefab: 0
+  - targetObject: 109676
+    targetPrefab: 0
+  - targetObject: 109677
+    targetPrefab: 0
+  - targetObject: 109678
+    targetPrefab: 0
+  - targetObject: 109679
+    targetPrefab: 0
+  - targetObject: 109680
+    targetPrefab: 0
+  - targetObject: 109681
+    targetPrefab: 0
+  - targetObject: 109682
+    targetPrefab: 0
+  - targetObject: 109683
+    targetPrefab: 0
+  - targetObject: 109684
+    targetPrefab: 0
+  - targetObject: 109685
+    targetPrefab: 0
+  - targetObject: 109686
+    targetPrefab: 0
+  - targetObject: 109687
+    targetPrefab: 0
+  - targetObject: 109688
+    targetPrefab: 0
+  - targetObject: 109689
+    targetPrefab: 0
+  - targetObject: 109690
+    targetPrefab: 0
+  - targetObject: 109691
+    targetPrefab: 0
+  - targetObject: 109692
+    targetPrefab: 0
+  - targetObject: 109693
+    targetPrefab: 0
+  - targetObject: 109694
+    targetPrefab: 0
+  - targetObject: 109695
+    targetPrefab: 0
+  - targetObject: 109696
+    targetPrefab: 0
+  - targetObject: 109697
+    targetPrefab: 0
+  - targetObject: 109698
+    targetPrefab: 0
+  - targetObject: 109699
+    targetPrefab: 0
+  - targetObject: 109700
+    targetPrefab: 0
+  - targetObject: 109701
+    targetPrefab: 0
+  - targetObject: 109702
+    targetPrefab: 0
+  - targetObject: 109703
+    targetPrefab: 0
+  - targetObject: 109704
+    targetPrefab: 0
+  - targetObject: 109705
+    targetPrefab: 0
+  - targetObject: 109706
+    targetPrefab: 0
+  - targetObject: 109707
+    targetPrefab: 0
+  - targetObject: 109708
+    targetPrefab: 0
+  - targetObject: 109709
+    targetPrefab: 0
+  m_BakedReflectionProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000006352e782e7800352e332e3866320000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_EnlightenDataVersion: 112

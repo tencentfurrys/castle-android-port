@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tentacle_Girl_H02_O01_0
+  m_Rect:
+    serializedVersion: 2
+    x: 20.07612
+    y: 196.07613
+    width: 45.880974
+    height: 60.847763
+  m_Offset: {x: -30.719007, y: -99.490005}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 28f027bff9dfdca4f80b58c12381581a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.6157, y: 4.062187, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6782, y: 3.4371874, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6782, y: 3.8434374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6157, y: 3.0934374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.45945, y: 2.5309374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3657, y: 4.062187, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.52195, y: 3.5934374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.52195, y: 2.1559374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2407, y: 2.8434374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2407, y: 2.1559374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6782, y: 2.8121874, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6782, y: 2.9371874, z: 0}
+    indices: 040003000a000b000a000300090008000700060007000800040007000600050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 20.07612
+      y: 196.07613
+      width: 45.880974
+      height: 60.847763
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 12.2976, z: 32, w: 127.01}

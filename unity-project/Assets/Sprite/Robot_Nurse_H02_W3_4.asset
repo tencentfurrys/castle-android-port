@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Nurse_H02_W3_4
+  m_Rect:
+    serializedVersion: 2
+    x: 64
+    y: 0
+    width: 16
+    height: 22
+  m_Offset: {x: 2.9919968, y: -78.0032}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ba36670fa1aeb1f4f849b1876e03213a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.3434999, y: 2.78135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1565001, y: 2.78135, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3434999, y: 2.09385, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1565001, y: 2.09385, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 22
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 74.992, z: 32, w: -67.0032}

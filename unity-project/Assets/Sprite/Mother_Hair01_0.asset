@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mother_Hair01_0
+  m_Rect:
+    serializedVersion: 2
+    x: 5.0761204
+    y: 200
+    width: 125.847755
+    height: 200
+  m_Offset: {x: 1.0000031, y: -100}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e72ba6e3d87da4e4a85487ef73bd353b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.9375, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8125, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.9375, y: 0.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.625, y: 5.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28125, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6875, y: 6.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.03125, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.65625, y: 6.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.59375, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.78125, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.96875, y: 0.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2, y: 5.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2, y: 0.375, z: 0}
+    indices: 0c000b000a0007000a000b0009000a000700080009000700060008000700050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 5.0761204
+      y: 200
+      width: 125.847755
+      height: 200
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 69, z: 32, w: 200}

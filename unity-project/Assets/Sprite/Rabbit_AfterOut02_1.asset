@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rabbit_AfterOut02_1
+  m_Rect:
+    serializedVersion: 2
+    x: 78.07612
+    y: 0
+    width: 77.92388
+    height: 160
+  m_Offset: {x: 5.940638, y: -93.007996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c19cbc43eb69096418301094ad4f3e24, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.50066566, y: 5.219, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0319157, y: 0.40649986, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0319157, y: 3.8439999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21941566, y: 5.00025, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.094415665, y: 4.75025, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.094415665, y: 4.6565, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.030584335, y: 5.4065, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.063165665, y: 5.219, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1555843, y: 0.40649986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2180843, y: 5.4065, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4055843, y: 5.37525, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4055843, y: 2.5002499, z: 0}
+    indices: 0b000a000800090008000a00060008000900050008000600010008000500070005000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 78.07612
+      y: 0
+      width: 77.92388
+      height: 160
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 122.9787, z: 32, w: -13.007996}

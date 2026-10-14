@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Mermaid_H01_02_1
+  m_Rect:
+    serializedVersion: 2
+    x: 224
+    y: 84
+    width: 191.92387
+    height: 84
+  m_Offset: {x: -41.966724, y: -55.003197}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ed344aef32cb67048b023eef6c8ca1a5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.12514973, y: 2.78135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12514973, y: 2.46885, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15639973, y: 2.53135, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.062350273, y: 2.9376, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0626497, y: 2.6251, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.9376497, y: 2.0626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0313997, y: 2.3751, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0626497, y: 1.6250999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.3126497, y: 3.03135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.5626497, y: 0.4063499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.3126497, y: 0.7188499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.1251497, y: 3.03135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5313997, y: 1.5938499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4686003, y: 2.71885, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6873503, y: 1.2500999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6873503, y: 0.4063499, z: 0}
+    indices: 0f000e0009000d0009000e00070009000d00010007000d00030001000d000c00090007000b0009000c00080009000b000a0009000800010004000700050007000400060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 224
+      y: 84
+      width: 191.92387
+      height: 84
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 277.9952, z: 32, w: 70.9968}

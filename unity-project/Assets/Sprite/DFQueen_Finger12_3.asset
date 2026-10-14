@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DFQueen_Finger12_3
+  m_Rect:
+    serializedVersion: 2
+    x: 294
+    y: 160.07613
+    width: 92.92388
+    height: 68.89713
+  m_Offset: {x: 2.538057, y: -38.524693}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2da088f0fd121c440937be74feea2bf7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.15625, y: 2.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.375, y: 0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.375, y: 2.1875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.65625, y: 2.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625, y: 0.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.46875, y: 2.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.53125, y: 1.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.53125, y: 0.90625, z: 0}
+    indices: 080007000500060005000700030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 294
+      y: 160.07613
+      width: 92.92388
+      height: 68.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 343, z: 32, w: 156}

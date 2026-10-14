@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Site_Doll_H03_OutW02_7
+  m_Rect:
+    serializedVersion: 2
+    x: 121.118324
+    y: 240
+    width: 33.732327
+    height: 68.92388
+  m_Offset: {x: 2.0155132, y: -34.46194}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a0b2dd1925814f44e8999714997cb29e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 0.1875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.09375, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15625, y: 0.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 0.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21875, y: 2.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 1.9375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 2.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15625, y: 1.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09375, y: 1.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 1.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15625, y: 2.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1875, y: 1.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21875, y: 2, z: 0}
+    indices: 0f000d000e000c000e000d0007000c000d000b000c0007000a000b00070008000a000700090008000700060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 121.118324
+      y: 240
+      width: 33.732327
+      height: 68.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 140, z: 32, w: 240}

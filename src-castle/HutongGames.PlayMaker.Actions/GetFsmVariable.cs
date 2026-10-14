@@ -1,0 +1,81 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Get the value of a variable in another FSM and store it in a variable of the same name in this FSM.")]
+[ActionCategory(ActionCategory.StateMachine)]
+public class GetFsmVariable : FsmStateAction
+{
+	[RequiredField]
+	[Tooltip("The GameObject that owns the FSM")]
+	public FsmOwnerDefault gameObject;
+
+	[UIHint(UIHint.FsmName)]
+	[Tooltip("Optional name of FSM on Game Object")]
+	public FsmString fsmName;
+
+	[UIHint(UIHint.Variable)]
+	[RequiredField]
+	[HideTypeFilter]
+	public FsmVar storeValue;
+
+	[Tooltip("Repeat every frame.")]
+	public bool everyFrame;
+
+	private GameObject cachedGO;
+
+	private PlayMakerFSM sourceFsm;
+
+	private INamedVariable sourceVariable;
+
+	private NamedVariable targetVariable;
+
+	public override void Reset()
+	{
+		gameObject = null;
+		fsmName = string.Empty;
+		storeValue = new FsmVar();
+	}
+
+	public override void OnEnter()
+	{
+		InitFsmVar();
+		DoGetFsmVariable();
+		if (!everyFrame)
+		{
+			Finish();
+		}
+	}
+
+	public override void OnUpdate()
+	{
+		DoGetFsmVariable();
+	}
+
+	private void InitFsmVar()
+	{
+		GameObject ownerDefaultTarget = Fsm.GetOwnerDefaultTarget(gameObject);
+		if (!(ownerDefaultTarget == null) && ownerDefaultTarget != cachedGO)
+		{
+			sourceFsm = ActionHelpers.GetGameObjectFsm(ownerDefaultTarget, fsmName.Value);
+			sourceVariable = sourceFsm.FsmVariables.GetVariable(storeValue.variableName);
+			targetVariable = Fsm.Variables.GetVariable(storeValue.variableName);
+			storeValue.Type = FsmUtility.GetVariableType(targetVariable);
+			if (!string.IsNullOrEmpty(storeValue.variableName) && sourceVariable == null)
+			{
+				LogWarning("Missing Variable: " + storeValue.variableName);
+			}
+			cachedGO = ownerDefaultTarget;
+		}
+	}
+
+	private void DoGetFsmVariable()
+	{
+		if (!storeValue.IsNone)
+		{
+			InitFsmVar();
+			storeValue.GetValueFrom(sourceVariable);
+			storeValue.ApplyValueTo(targetVariable);
+		}
+	}
+}

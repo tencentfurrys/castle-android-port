@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tentacle_Girl_H02_2_7
+  m_Rect:
+    serializedVersion: 2
+    x: 270.0761
+    y: 0
+    width: 89.92388
+    height: 174
+  m_Offset: {x: -8.678065, y: -99.9978}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: fb6de0fd15e942c4a869e92594e252d6, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.64500046, y: 5.8436813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.79249954, y: 2.1874313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.72999954, y: 2.1249313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.85499954, y: 2.1874313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.88624954, y: 5.8436813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.91749954, y: 5.7811813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.94874954, y: 2.0936813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0424995, y: 0.40618134, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.94874954, y: 2.0311813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1362495, y: 5.0311813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1362495, y: 0.74993134, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6762505, y: 0.40618134, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.6762505, y: 5.2499313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76124954, y: 1.9686813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.85499954, y: 1.9374313, z: 0}
+    indices: 080006000e0003000e0006000d000e00030001000d00030002000d00010008000e0007000b0007000e000d000b000e0002000b000d0000000b0002000c000b0000000a0009000700050007000900060007000500080007000600030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 270.0761
+      y: 0
+      width: 89.92388
+      height: 174
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 306.36, z: 32, w: -12.997803}

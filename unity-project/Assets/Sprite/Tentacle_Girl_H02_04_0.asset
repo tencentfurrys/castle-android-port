@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tentacle_Girl_H02_04_0
+  m_Rect:
+    serializedVersion: 2
+    x: 6.0761204
+    y: 56
+    width: 156.84775
+    height: 56
+  m_Offset: {x: 19.804005, y: -40.9808}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 3b23569c1223568409a1ec412a05c24b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.1780002, y: 2.1556501, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8967502, y: 1.9369, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9905002, y: 1.90565, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.2907498, y: 2.1556501, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8342502, y: 1.8744, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8342502, y: 1.65565, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.7405002, y: 0.40565002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8342502, y: 0.7494, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9905002, y: 1.8119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8967502, y: 1.78065, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4782498, y: 2.0619001, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.8844998, y: 0.40565002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.0094998, y: 1.53065, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.0719998, y: 1.4369, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.0719998, y: 0.9994, z: 0}
+    indices: 0400010009000800090001000200080001000e000d000b000c000b000d000a000b000c0006000b000a00030006000a00040006000300090006000400080006000900020006000800000006000200050006000000070006000500000001000300040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 6.0761204
+      y: 56
+      width: 156.84775
+      height: 56
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 104.30399, z: 32, w: 43.0192}

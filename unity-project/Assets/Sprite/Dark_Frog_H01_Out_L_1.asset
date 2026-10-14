@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Dark_Frog_H01_Out_L_1
+  m_Rect:
+    serializedVersion: 2
+    x: 82
+    y: 46
+    width: 82
+    height: 43.948685
+  m_Offset: {x: 49.518154, y: -34.96934}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0bf185b9b3df61d41a8e49baedccf28f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -2.2661924, y: 1.0623437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.3911924, y: 0.8123437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.3286924, y: 0.9373437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.6724424, y: 1.7810937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.98494244, y: 1.7810937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.7661924, y: 1.6560937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.7661924, y: 1.5623437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.8286924, y: 1.5623437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.8286924, y: 0.6873437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.51619244, y: 1.7185937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.26619244, y: 0.40609372, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.26619244, y: 1.5310937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.5161924, y: 0.49984372, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.5474424, y: 0.40609372, z: 0}
+    indices: 0d000c000a0002000a000c0000000a00020004000a00000009000a0004000b000a000900080007000100060001000700050001000600030001000500000001000300040000000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 82
+      y: 46
+      width: 82
+      height: 43.948685
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 172.51816, z: 32, w: 33.005}

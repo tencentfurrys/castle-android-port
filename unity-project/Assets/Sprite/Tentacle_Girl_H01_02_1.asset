@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tentacle_Girl_H01_02_1
+  m_Rect:
+    serializedVersion: 2
+    x: 70
+    y: 0
+    width: 70
+    height: 190
+  m_Offset: {x: -9.660003, y: -107.9865}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: dd1bf35f372280e41ae6f7e683be57e3, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.3018751, y: 6.3433285, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5106249, y: 5.2495785, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4793749, y: 5.2808285, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5418749, y: 6.3433285, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5731249, y: 5.1870785, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6356249, y: 6.1245785, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6668749, y: 5.2183285, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8956251, y: 6.0620785, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3956251, y: 0.40582824, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3956251, y: 2.3745782, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5731249, y: 5.0933285, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5731249, y: 4.7495785, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7918749, y: 4.3745785, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7918749, y: 0.40582824, z: 0}
+    indices: 0d000c0008000b0008000c000a0008000b00010008000a00020008000100000008000200070008000000090008000700060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 70
+      y: 0
+      width: 70
+      height: 190
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 95.34, z: 32, w: -12.986504}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Corrupt_Bishop_H02_Bat_0
+  m_Rect:
+    serializedVersion: 2
+    x: 6
+    y: 0
+    width: 96
+    height: 116.92388
+  m_Offset: {x: 0, y: -58.46194}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1669aa546d40ada4f877b0968feb5a2a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.65625, y: 3.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5, y: 1.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.375, y: 3.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34375, y: 3.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1875, y: 1.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1875, y: 1.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1875, y: 1.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.03125, y: 2.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15625, y: 2.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 2.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 3.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 3.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.625, y: 3.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.40625, y: 1.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5, y: 1.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5, y: 0, z: 0}
+    indices: 07000900060010000f0001000e0001000f000a0001000e000d000a000e000b000a000d000c000a000b00070001000a00080007000a00090007000800060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 6
+      y: 0
+      width: 96
+      height: 116.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 54, z: 32, w: 0}

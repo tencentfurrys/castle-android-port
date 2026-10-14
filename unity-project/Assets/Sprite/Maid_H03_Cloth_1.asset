@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Maid_H03_Cloth_1
+  m_Rect:
+    serializedVersion: 2
+    x: 72.07612
+    y: 139.03989
+    width: 45.847755
+    height: 96.93337
+  m_Offset: {x: -4.9999957, y: -67.50657}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 065f3333ee164834ab0fabd82883631f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 3.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.875, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.875, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 3.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 0.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34375, y: 1.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 1.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34375, y: 3.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 3.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 3.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 1.15625, z: 0}
+    indices: 0d00050004000c000b0009000a0009000b00080009000a00070009000800030007000800060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 72.07612
+      y: 139.03989
+      width: 45.847755
+      height: 96.93337
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 90, z: 32, w: 120}

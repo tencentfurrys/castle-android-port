@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Virgin_Chain_Break_3
+  m_Rect:
+    serializedVersion: 2
+    x: 1
+    y: 241
+    width: 70.948685
+    height: 62
+  m_Offset: {x: 0.5256571, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 128
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ae80f7325d89c9145a24a04cc7533a21, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.2734375, y: 0.2109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.265625, y: 0.1328125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2734375, y: -0.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 0.2421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2421875, y: 0.140625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2265625, y: 0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.0234375, y: -0.2421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.0546875, y: -0.0390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.0703125, y: -0.0234375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.078125, y: 0.1953125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1015625, y: 0.203125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1484375, y: 0.2421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1484375, y: 0.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 0.0390625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.265625, y: 0.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2421875, y: 0.1015625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.0546875, y: -0.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.078125, y: -0.0703125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.09375, y: -0.0546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.140625, y: 0.1484375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1171875, y: 0.1484375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: -0.2421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.078125, y: 0.1640625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.09375, y: -0.03125, z: 0}
+    indices: 0c000a001300140013000a00160014000a00090016000a0012001700110008001100170010001100080007001000080016001700140012001400170008001700160009000800160015000d000600120006000d000c0012000d00130012000c00140012001300110006001200100006001100070006001000050004000f000e000f00040001000e0004000600050002000f00020005000e0002000f00010002000e000d000b000c000a000c000b0003000a000b0009000a000300080009000300070008000300060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 1
+      y: 241
+      width: 70.948685
+      height: 62
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 128, y: 37, z: 128, w: 272}

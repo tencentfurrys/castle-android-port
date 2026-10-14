@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Failer_S_Boast01_H01_2
+  m_Rect:
+    serializedVersion: 2
+    x: 164
+    y: 0
+    width: 82
+    height: 130.92387
+  m_Offset: {x: 0, y: -78.46154}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d060e45480356bf4fa5d07ddbbe79410, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 4.4999876, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28125, y: 0.4062376, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28125, y: 1.6562376, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.25, y: 4.4999876, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.28125, y: 4.3124876, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.28125, y: 0.4062376, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 164
+      y: 0
+      width: 82
+      height: 130.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 205, z: 32, w: -12.999603}

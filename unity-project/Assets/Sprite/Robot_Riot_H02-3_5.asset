@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-3_5
+  m_Rect:
+    serializedVersion: 2
+    x: 111.07612
+    y: 0.059728384
+    width: 100.84776
+    height: 144.88896
+  m_Offset: {x: 7.5063925, y: -73.504715}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7c693a440876cd748a6645de047c60f1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.2185502, y: 4.1562657, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3435502, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3435502, y: 3.7187657, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9373002, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.7185502, y: 0.18751574, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4373002, y: 0.65626574, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.093949795, y: 4.5625157, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4685502, y: 0.28126574, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5626998, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2501998, y: 4.5625157, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6564498, y: 4.2500157, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.7814498, y: 0.031265736, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.8126998, y: 3.8750157, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.8126998, y: 0.62501574, z: 0}
+    indices: 0d000c000b000a000b000c0008000b000a00090008000a00060008000900070008000600050007000600060000000500040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 111.07612
+      y: 0.059728384
+      width: 100.84776
+      height: 144.88896
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 169.0064, z: 32, w: -1.0005035}

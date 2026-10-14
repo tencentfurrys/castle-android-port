@@ -1,0 +1,296 @@
+using DG.Tweening;
+using Doozy.PlaymakerActions;
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+	[HelpUrl("http://dotween.demigiant.com/documentation.php")]
+	[Tooltip("Moves the target's position to the given value.")]
+	[ActionCategory("DOTween")]
+	public class DOTweenTransformMove : FsmStateAction
+	{
+		[CheckForComponent(typeof(Transform))]
+		[RequiredField]
+		public FsmOwnerDefault gameObject;
+
+		[ActionSection("")]
+		[Tooltip("Select the target. Either a Vector3 or a GameObject's position")]
+		public DOTweenActionsEnums.Target target;
+
+		[Tooltip("The end value to reach")]
+		[UIHint(UIHint.FsmVector3)]
+		public FsmVector3 to;
+
+		[UIHint(UIHint.FsmGameObject)]
+		[Tooltip("The end value to reach")]
+		public FsmGameObject toGameObject;
+
+		[ActionSection("")]
+		[Tooltip("If setRelative is TRUE sets the tween as relative (the endValue will be calculated as startValue + endValue instead of being used directly). In case of Sequences, sets all the nested tweens as relative. IMPORTANT: Has no effect on Reverse Options, since in that case you directly choose if the tween isRelative or not in the settings below")]
+		[UIHint(UIHint.FsmBool)]
+		public FsmBool setRelative;
+
+		[UIHint(UIHint.FsmBool)]
+		[Tooltip("If TRUE the tween will smoothly snap all values to integers.")]
+		public FsmBool snapping;
+
+		[UIHint(UIHint.FsmFloat)]
+		[Tooltip("The duration of the tween")]
+		[RequiredField]
+		public FsmFloat duration;
+
+		[UIHint(UIHint.FsmBool)]
+		[Tooltip("If isSpeedBased is TRUE sets the tween as speed based (the duration will represent the number of units/degrees the tween moves x second). NOTE: if you want your speed to be constant, also set the ease to Ease.Linear.")]
+		public FsmBool setSpeedBased;
+
+		[UIHint(UIHint.FsmFloat)]
+		[Tooltip("Set a delayed startup for the tween")]
+		public FsmFloat startDelay;
+
+		[UIHint(UIHint.FsmBool)]
+		[ActionSection("Reverse Options")]
+		[Tooltip("Play in reverse. Changes a TO tween into a FROM tween: sets the current target's startValue as the tween's endValue then immediately sends the target to the previously set endValue.")]
+		public FsmBool playInReverse;
+
+		[Tooltip("If TRUE the FROM value will be calculated as relative to the current one")]
+		[UIHint(UIHint.FsmBool)]
+		public FsmBool setReverseRelative;
+
+		[UIHint(UIHint.FsmEvent)]
+		[ActionSection("Events")]
+		public FsmEvent startEvent;
+
+		[UIHint(UIHint.FsmEvent)]
+		public FsmEvent finishEvent;
+
+		[UIHint(UIHint.FsmBool)]
+		[Tooltip("If TRUE this action will finish immediately, if FALSE it will finish when the tween is complete.")]
+		public FsmBool finishImmediately;
+
+		[UIHint(UIHint.Description)]
+		[ActionSection("Tween ID")]
+		public string tweenIdDescription = "Set an ID for the tween, which can then be used as a filter with DOTween's Control Methods";
+
+		[Tooltip("Select the source for the tween ID")]
+		public DOTweenActionsEnums.TweenId tweenIdType;
+
+		[Tooltip("Use a String as the tween ID")]
+		[UIHint(UIHint.FsmString)]
+		public FsmString stringAsId;
+
+		[UIHint(UIHint.Tag)]
+		[Tooltip("Use a Tag as the tween ID")]
+		public FsmString tagAsId;
+
+		[ActionSection("Ease Settings")]
+		public DOTweenActionsEnums.SelectedEase selectedEase;
+
+		[Tooltip("Sets the ease of the tween. If applied to a Sequence instead of a Tweener, the ease will be applied to the whole Sequence as if it was a single animated timeline.Sequences always have Ease.Linear by default, independently of the global default ease settings.")]
+		public Ease easeType;
+
+		public FsmAnimationCurve animationCurve;
+
+		[UIHint(UIHint.Description)]
+		[ActionSection("Loop Settings")]
+		public string loopsDescriptionArea = "Setting loops to -1 will make the tween loop infinitely.";
+
+		[Tooltip("Setting loops to -1 will make the tween loop infinitely.")]
+		[UIHint(UIHint.FsmInt)]
+		public FsmInt loops;
+
+		[Tooltip("Sets the looping options (Restart, Yoyo, Incremental) for the tween. LoopType.Restart: When a loop ends it will restart from the beginning. LoopType.Yoyo: When a loop ends it will play backwards until it completes another loop, then forward again, then backwards again, and so on and on and on. LoopType.Incremental: Each time a loop ends the difference between its endValue and its startValue will be added to the endValue, thus creating tweens that increase their values with each loop cycle. Has no effect if the tween has already started.Also, infinite loops will not be applied if the tween is inside a Sequence.")]
+		public LoopType loopType;
+
+		[ActionSection("Special Settings")]
+		[Tooltip("If autoKillOnCompletion is set to TRUE the tween will be killed as soon as it completes, otherwise it will stay in memory and you'll be able to reuse it.")]
+		[UIHint(UIHint.FsmBool)]
+		public FsmBool autoKillOnCompletion;
+
+		[Tooltip("Sets the recycling behaviour for the tween. If you don't set it then the default value (set either via DOTween.Init or DOTween.defaultRecyclable) will be used.")]
+		[UIHint(UIHint.FsmBool)]
+		public FsmBool recyclable;
+
+		[Tooltip("Sets the type of update (Normal, Late or Fixed) for the tween and eventually tells it to ignore Unity's timeScale. UpdateType.Normal: Updates every frame during Update calls. UpdateType.Late: Updates every frame during LateUpdate calls. UpdateType.Fixed: Updates using FixedUpdate calls. ")]
+		public UpdateType updateType;
+
+		[Tooltip(" If TRUE the tween will ignore Unity's Time.timeScale. NOTE: independentUpdate works also with UpdateType.Fixed but is not recommended in that case (because at timeScale 0 FixedUpdate won't run).")]
+		[UIHint(UIHint.FsmBool)]
+		public FsmBool isIndependentUpdate;
+
+		[UIHint(UIHint.FsmBool)]
+		[ActionSection("Debug Options")]
+		public FsmBool debugThis;
+
+		private Tweener tweener;
+
+		public override void Reset()
+		{
+			base.Reset();
+			gameObject = null;
+			to = new FsmVector3
+			{
+				UseVariable = false
+			};
+			toGameObject = new FsmGameObject
+			{
+				UseVariable = false
+			};
+			duration = new FsmFloat
+			{
+				UseVariable = false
+			};
+			setSpeedBased = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			snapping = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			setRelative = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			playInReverse = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			setReverseRelative = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			startEvent = null;
+			finishEvent = null;
+			finishImmediately = new FsmBool
+			{
+				UseVariable = false,
+				Value = false
+			};
+			stringAsId = new FsmString
+			{
+				UseVariable = false
+			};
+			tagAsId = new FsmString
+			{
+				UseVariable = false
+			};
+			startDelay = new FsmFloat
+			{
+				Value = 0f
+			};
+			selectedEase = DOTweenActionsEnums.SelectedEase.EaseType;
+			easeType = Ease.Linear;
+			loops = new FsmInt
+			{
+				Value = 0
+			};
+			loopType = LoopType.Restart;
+			autoKillOnCompletion = new FsmBool
+			{
+				Value = true
+			};
+			recyclable = new FsmBool
+			{
+				Value = false
+			};
+			updateType = UpdateType.Normal;
+			isIndependentUpdate = new FsmBool
+			{
+				Value = false
+			};
+			debugThis = new FsmBool
+			{
+				Value = false
+			};
+		}
+
+		public override void OnEnter()
+		{
+			switch (target)
+			{
+			case DOTweenActionsEnums.Target.Value:
+				tweener = base.Fsm.GetOwnerDefaultTarget(gameObject).GetComponent<Transform>().DOMove(to.Value, duration.Value, snapping.Value);
+				break;
+			case DOTweenActionsEnums.Target.GameObject:
+				tweener = base.Fsm.GetOwnerDefaultTarget(gameObject).GetComponent<Transform>().DOMove(toGameObject.Value.transform.position, duration.Value, snapping.Value);
+				break;
+			}
+			if (setSpeedBased.Value)
+			{
+				tweener.SetSpeedBased();
+			}
+			tweener.SetRelative(setRelative.Value);
+			switch (tweenIdType)
+			{
+			case DOTweenActionsEnums.TweenId.UseString:
+				if (!string.IsNullOrEmpty(stringAsId.Value))
+				{
+					tweener.SetId(stringAsId.Value);
+				}
+				break;
+			case DOTweenActionsEnums.TweenId.UseTag:
+				if (!string.IsNullOrEmpty(tagAsId.Value))
+				{
+					tweener.SetId(tagAsId.Value);
+				}
+				break;
+			case DOTweenActionsEnums.TweenId.UseGameObject:
+				tweener.SetId(base.Fsm.GetOwnerDefaultTarget(gameObject));
+				break;
+			}
+			tweener.SetDelay(startDelay.Value);
+			switch (selectedEase)
+			{
+			case DOTweenActionsEnums.SelectedEase.EaseType:
+				tweener.SetEase(easeType);
+				break;
+			case DOTweenActionsEnums.SelectedEase.AnimationCurve:
+				tweener.SetEase(animationCurve.curve);
+				break;
+			}
+			tweener.SetLoops(loops.Value, loopType);
+			tweener.SetAutoKill(autoKillOnCompletion.Value);
+			tweener.SetRecyclable(recyclable.Value);
+			tweener.SetUpdate(updateType, isIndependentUpdate.Value);
+			if (playInReverse.Value)
+			{
+				tweener.From(setReverseRelative.Value);
+			}
+			if (startEvent != null)
+			{
+				tweener.OnStart(() =>
+				{
+					base.Fsm.Event(startEvent);
+				});
+			}
+			if (!finishImmediately.Value)
+			{
+				if (finishEvent != null)
+				{
+					tweener.OnComplete(() =>
+					{
+						base.Fsm.Event(finishEvent);
+					});
+				}
+				else
+				{
+					tweener.OnComplete(base.Finish);
+				}
+			}
+			tweener.Play();
+			if (debugThis.Value)
+			{
+				Debug.Log("GameObject [" + base.State.Fsm.GameObjectName + "] FSM [" + base.State.Fsm.Name + "] State [" + base.State.Name + "] - DOTween Transform Move - SUCCESS!");
+			}
+			if (finishImmediately.Value)
+			{
+				Finish();
+			}
+		}
+	}
+}

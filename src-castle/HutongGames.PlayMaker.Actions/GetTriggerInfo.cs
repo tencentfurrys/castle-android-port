@@ -1,0 +1,34 @@
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Gets info on the last Trigger event and store in variables.")]
+[ActionCategory(ActionCategory.Physics)]
+public class GetTriggerInfo : FsmStateAction
+{
+	[UIHint(UIHint.Variable)]
+	public FsmGameObject gameObjectHit;
+
+	[UIHint(UIHint.Variable)]
+	[Tooltip("Useful for triggering different effects. Audio, particles...")]
+	public FsmString physicsMaterialName;
+
+	public override void Reset()
+	{
+		gameObjectHit = null;
+		physicsMaterialName = null;
+	}
+
+	private void StoreTriggerInfo()
+	{
+		if (!(Fsm.TriggerCollider == null))
+		{
+			gameObjectHit.Value = Fsm.TriggerCollider.gameObject;
+			physicsMaterialName.Value = Fsm.TriggerCollider.material.name;
+		}
+	}
+
+	public override void OnEnter()
+	{
+		StoreTriggerInfo();
+		Finish();
+	}
+}

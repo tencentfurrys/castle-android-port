@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Mermaid_H01_01_1
+  m_Rect:
+    serializedVersion: 2
+    x: 218
+    y: 84
+    width: 188.92387
+    height: 84
+  m_Offset: {x: -40.46334, y: -55.003197}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a6130485c028a124ebbecf4cc710c446, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 4.218794, y: 3.03135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.5312939, y: 0.4063499, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.218794, y: 1.0000999, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43754387, y: 3.03135, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.90620613, y: 2.8126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4374561, y: 2.6251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6874561, y: 1.0938499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6874561, y: 0.4063499, z: 0}
+    indices: 070006000100050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 218
+      y: 84
+      width: 188.92387
+      height: 84
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 271.9986, z: 32, w: 70.9968}

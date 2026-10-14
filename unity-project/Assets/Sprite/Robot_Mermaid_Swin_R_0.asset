@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Mermaid_Swin_R_0
+  m_Rect:
+    serializedVersion: 2
+    x: 11.012913
+    y: 124.07612
+    width: 128.98709
+    height: 31.847757
+  m_Offset: {x: -57.509457, y: -63.003597}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a4dbb07527ff22d42a6c3ae480b20319, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.9063437, y: 1.7501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.0000937, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.0000937, y: 1.7188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.9063437, y: 1.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.7813437, y: 1.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.7188437, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.7188437, y: 1.5313625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1875937, y: 1.8751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1563437, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2500937, y: 1.7188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1250937, y: 1.9063625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0625937, y: 1.6251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9375937, y: 1.9063625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9375937, y: 1.7188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.8125937, y: 2.2501125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.7813437, y: 1.8751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.8125937, y: 1.9376125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.5625937, y: 1.8751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.4063437, y: 2.4376125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.0313437, y: 1.9688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.9688437, y: 2.4376125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.9688437, y: 2.1563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5938437, y: 2.1876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6563437, y: 2.0001125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6563437, y: 2.0938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5938437, y: 1.9688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5000937, y: 2.2188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4063437, y: 2.2188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4063437, y: 1.9688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3438437, y: 2.1563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3438437, y: 2.0938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.0625937, y: 2.3751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.36985E-05, y: 2.2813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.0625937, y: 2.3438625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031156301, y: 2.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1249063, y: 2.2813625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.1874063, y: 2.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.2186563, y: 2.3751125, z: 0}
+    indices: 2500240023002200230024002000230022001f0020002200210020001f001e001d001c001b001c001d0019001c001b001a0019001b00160019001a001700190016001800170016001500140013001200130014001100130012000e00110012000f0011000e0010000f000e000d000c000b000a000b000c0008000b000a00070008000a00090008000700060005000400000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 11.012913
+      y: 124.07612
+      width: 128.98709
+      height: 31.847757
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 17.997002, z: 32, w: 76.9964}

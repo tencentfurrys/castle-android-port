@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DFQueen_Head_5
+  m_Rect:
+    serializedVersion: 2
+    x: 90
+    y: 225.02675
+    width: 90
+    height: 98.97325
+  m_Offset: {x: 0, y: -58.513374}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b9a30ce3bfbac0a4e8599c23482b7699, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.28125, y: 3.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.40625, y: 1.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.40625, y: 3.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28125, y: 0.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0625, y: 0.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.90625, y: 0.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.25, y: 3.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.40625, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.40625, y: 0.6875, z: 0}
+    indices: 080007000500060005000700000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 90
+      y: 225.02675
+      width: 90
+      height: 98.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 135, z: 32, w: 216}

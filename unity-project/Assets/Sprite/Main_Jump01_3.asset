@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Main_Jump01_3
+  m_Rect:
+    serializedVersion: 2
+    x: 261.0761
+    y: 569.0761
+    width: 54.910973
+    height: 156.84775
+  m_Offset: {x: -1.5315977, y: -89.499985}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0eb8a80ee8671874a9a72d0249f6fe37, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.75, y: 5.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.90625, y: 1.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.90625, y: 4.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5625, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15625, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8125, y: 5.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8125, y: 0.46875, z: 0}
+    indices: 070006000500000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 261.0761
+      y: 569.0761
+      width: 54.910973
+      height: 156.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 287, z: 32, w: 558}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Girl_H02_Out02_2
+  m_Rect:
+    serializedVersion: 2
+    x: 97.07612
+    y: 59.012913
+    width: 32.818306
+    height: 22.93577
+  m_Offset: {x: 2.512926, y: -36.476997}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 48677f33bc4d7d14bbcb4fd0095fb954, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.43755627, y: 1.2498813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37505627, y: 0.96863127, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43755627, y: 1.0936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28130627, y: 1.4373813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12505627, y: 1.4998813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.09380627, y: 0.78113127, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.06255627, y: 1.4061313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.21869373, y: 1.4998813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40619373, y: 0.78113127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.43744373, y: 1.4998813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59369373, y: 1.1248813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59369373, y: 0.96863127, z: 0}
+    indices: 0b000a000800090008000a00070008000900050008000700060005000700040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 97.07612
+      y: 59.012913
+      width: 32.818306
+      height: 22.93577
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 115.9982, z: 32, w: 34.0038}

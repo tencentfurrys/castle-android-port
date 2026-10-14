@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Maid_Clean_Stand_1
+  m_Rect:
+    serializedVersion: 2
+    x: 100
+    y: 10.026751
+    width: 98.92388
+    height: 175.89713
+  m_Offset: {x: 0.53805715, y: -97.97531}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 5aa18045cc7575343ac5a1874dd4777d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.53125, y: 1.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.46875, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.53125, y: 0.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 5.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.75, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 0.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46875, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.03125, y: 5.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53125, y: 0.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 0.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 0.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5625, y: 3.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5625, y: 0.3125, z: 0}
+    indices: 0c0007000d000a000d000700080007000c0009000a0007000b000a000900080003000700060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 100
+      y: 10.026751
+      width: 98.92388
+      height: 175.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 150, z: 32, w: 0}

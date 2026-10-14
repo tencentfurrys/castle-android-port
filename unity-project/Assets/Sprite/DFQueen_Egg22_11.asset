@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DFQueen_Egg22_11
+  m_Rect:
+    serializedVersion: 2
+    x: 288
+    y: 0
+    width: 141.97325
+    height: 88.94587
+  m_Offset: {x: 1.0133731, y: -44.472935}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d109f36f857c7e34f984e86b04ef7c47, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.90625, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1875, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1875, y: 1.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.875, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.25, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.25, y: 0.15625, z: 0}
+    indices: 050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 141.97325
+      height: 88.94587
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 360, z: 32, w: 0}

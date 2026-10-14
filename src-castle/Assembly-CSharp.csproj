@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ES2">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\ES2.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\Castle-PC\Castle_of_Temptation_V1.1.2_Itch\Castle_of_Temptation_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Mermaid_H01_02L_1
+  m_Rect:
+    serializedVersion: 2
+    x: 119.07612
+    y: 61.07612
+    width: 91.84776
+    height: 54.92388
+  m_Offset: {x: -3.003693, y: -43.54166}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c50923946cb0d0c4c8fd6bc0352410cc, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.5313654, y: 0.59386253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4688654, y: 0.50011253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5313654, y: 0.56261253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4376154, y: 0.68761253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3751154, y: 0.50011253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3126154, y: 0.68761253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2813654, y: 0.59386253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8751154, y: 0.71886253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8438654, y: 0.56261253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.9063654, y: 0.62511253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6876154, y: 0.71886253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6563654, y: 0.56261253, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6251154, y: 0.65636253, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5623846, y: 1.4376125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7186346, y: 1.1876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5311346, y: 1.3438625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7811346, y: 1.1876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8748846, y: 1.4376125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9373846, y: 1.3751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9373846, y: 1.3126125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5311346, y: 2.2188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4686346, y: 2.0313625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4686346, y: 2.1251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5623846, y: 1.8126125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6873846, y: 1.6876125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7186346, y: 2.2188625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8123846, y: 2.0938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8123846, y: 2.0001125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9998846, y: 1.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0936346, y: 1.4688625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2186346, y: 1.6563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2186346, y: 1.5938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2498846, y: 2.1563625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1873846, y: 1.8751125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1873846, y: 2.0938625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.2811346, y: 1.8438625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3436346, y: 2.1251125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3436346, y: 1.9063625, z: 0}
+    indices: 2500240023002000230024002100230020002200210020001f001e001d001b001d001e001c001d001b0018001c001b001a0018001b00190018001a001400180019001700180014001500170014001600150014001300120010001100100012000d00100011000e0010000d000f000e000d000c000a000b0008000b000a00070008000a00090008000700060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 119.07612
+      y: 61.07612
+      width: 91.84776
+      height: 54.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 161.9963, z: 32, w: 44.9964}

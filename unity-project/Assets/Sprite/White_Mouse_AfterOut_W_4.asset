@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_AfterOut_W_4
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 60.85065
+    height: 36.987087
+  m_Offset: {x: -35.49742, y: -31.490383}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 886e6e002382346418c5884f67fb435d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.18975306, y: 0.5624013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25225306, y: 0.4374013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.22100306, y: 0.5311513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18975306, y: 0.4061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15850306, y: 0.5311513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15850306, y: 0.4374013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.22100306, y: 0.5624013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28350306, y: 0.5311513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28350306, y: 0.4374013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.22100306, y: 0.8749013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31475306, y: 0.9061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34600306, y: 1.3749013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43975306, y: 1.2499013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43975306, y: 1.3436513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34600306, y: 1.2186513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28350306, y: 1.3124013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53350306, y: 0.9061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.47100306, y: 0.8436513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53350306, y: 0.8749013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37725306, y: 0.8436513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31475306, y: 0.9061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.47100306, y: 1.1249013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53350306, y: 1.0624013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37725306, y: 1.1561513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31475306, y: 1.1561513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25225306, y: 1.0936513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25225306, y: 0.9374013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.564753, y: 0.9061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.064753, y: 0.4061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.064753, y: 0.6874013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25225306, y: 0.4061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.31475306, y: 1.5624013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37725306, y: 1.4061513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37725306, y: 1.4999013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28350306, y: 1.3749013, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.22100306, y: 1.5311513, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.22100306, y: 1.4374013, z: 0}
+    indices: 2400230022001f0022002300200022001f00210020001f00010008001e001c001e00080007001c00080013001c0007000a001300070011001c00130012001c00110010001c0012001b001c0010001d001c001b001a0019000a0018000a00190014000a0018001000140018001700100018001500100017001600100015000a00140013001000130014001100130010001200110010000f000b000e000c000e000b000d000c000b000600090007000a0007000900020006000100070001000600080001000700020000000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 60.85065
+      height: 36.987087
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: -5.072098, z: 32, w: -12.996841}

@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: H_Gallery01_Out01
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 4424731f36dcab740a164171f714f3d3, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 5f134502705aa3e4aa7ddab0c1a08453, type: 2}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 586977a63103ee84aa31e242bf99e94c, type: 2}
+    - time: 0.75
+      value: {fileID: 21300000, guid: ac94fb89869c299479ab1ad524e6d25d, type: 2}
+    - time: 1
+      value: {fileID: 21300000, guid: 42ed19a95cc6cc0409377e084fd4f7c6, type: 2}
+    - time: 1.25
+      value: {fileID: 21300000, guid: 69f869417371d2046afb205231dbee1a, type: 2}
+    - time: 1.5
+      value: {fileID: 21300000, guid: 2ee40b3b785613f4b92e0abaf7bae7db, type: 2}
+    - time: 2.25
+      value: {fileID: 21300000, guid: 30145f5a7b6201146a6773eb7ee3b587, type: 2}
+    - time: 2.5
+      value: {fileID: 21300000, guid: b9ef3b712b0c20840bfd5df0187aa7c4, type: 2}
+    - time: 2.75
+      value: {fileID: 21300000, guid: bf12916cdd1ea33499a987d594e46fee, type: 2}
+    - time: 3
+      value: {fileID: 21300000, guid: a1d36fbbf006ef848a62f79a2da67174, type: 2}
+    - time: 3.25
+      value: {fileID: 21300000, guid: 309ff1fd15a90574cbccf22bafb31092, type: 2}
+    - time: 3.75
+      value: {fileID: 21300000, guid: 309ff1fd15a90574cbccf22bafb31092, type: 2}
+    attribute: m_Sprite
+    path: Image
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 83635035
+      attribute: 0
+      script: {fileID: 0}
+      classID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 4424731f36dcab740a164171f714f3d3, type: 2}
+    - {fileID: 21300000, guid: 5f134502705aa3e4aa7ddab0c1a08453, type: 2}
+    - {fileID: 21300000, guid: 586977a63103ee84aa31e242bf99e94c, type: 2}
+    - {fileID: 21300000, guid: ac94fb89869c299479ab1ad524e6d25d, type: 2}
+    - {fileID: 21300000, guid: 42ed19a95cc6cc0409377e084fd4f7c6, type: 2}
+    - {fileID: 21300000, guid: 69f869417371d2046afb205231dbee1a, type: 2}
+    - {fileID: 21300000, guid: 2ee40b3b785613f4b92e0abaf7bae7db, type: 2}
+    - {fileID: 21300000, guid: 30145f5a7b6201146a6773eb7ee3b587, type: 2}
+    - {fileID: 21300000, guid: b9ef3b712b0c20840bfd5df0187aa7c4, type: 2}
+    - {fileID: 21300000, guid: bf12916cdd1ea33499a987d594e46fee, type: 2}
+    - {fileID: 21300000, guid: a1d36fbbf006ef848a62f79a2da67174, type: 2}
+    - {fileID: 21300000, guid: 309ff1fd15a90574cbccf22bafb31092, type: 2}
+    - {fileID: 21300000, guid: 309ff1fd15a90574cbccf22bafb31092, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 3.7666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: SendEvent
+    data: S_HIn06
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.05
+    functionName: SendEvent
+    data: S_SameIn03_2
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.083333336
+    functionName: SendEvent
+    data: S_SameOut02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.75
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.0166667
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1166667
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.25
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.5
+    functionName: SendEvent
+    data: S_JobSup07
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.2166667
+    functionName: SendEvent
+    data: S_HIn06
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.2666667
+    functionName: SendEvent
+    data: S_SameIn03_2
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.3
+    functionName: SendEvent
+    data: S_Short_Out03
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.75
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.8166666
+    functionName: SendEvent
+    data: S_Out_Done01
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.9
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.1333334
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.2333333
+    functionName: SendEvent
+    data: S_Out_Done02
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

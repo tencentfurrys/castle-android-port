@@ -1,0 +1,52 @@
+namespace HutongGames.PlayMaker.Actions;
+
+[ActionCategory("ArrayMaker/HashTable")]
+[Tooltip("Check if an HashTable Proxy component exists.")]
+public class HashTableExists : ArrayListActions
+{
+	[RequiredField]
+	[Tooltip("The gameObject with the PlayMaker HashTable Proxy component")]
+	[ActionSection("Set up")]
+	public FsmOwnerDefault gameObject;
+
+	[Tooltip("Author defined Reference of the PlayMaker HashTable Proxy component ( necessary if several component coexists on the same GameObject")]
+	public FsmString reference;
+
+	[Tooltip("Store in a bool wether it exists or not")]
+	[UIHint(UIHint.Variable)]
+	[ActionSection("Result")]
+	public FsmBool doesExists;
+
+	[Tooltip("Event sent if this HashTable exists ")]
+	[UIHint(UIHint.FsmEvent)]
+	public FsmEvent doesExistsEvent;
+
+	[UIHint(UIHint.FsmEvent)]
+	[Tooltip("Event sent if this HashTable does not exists")]
+	public FsmEvent doesNotExistsEvent;
+
+	public override void Reset()
+	{
+		gameObject = null;
+		reference = null;
+		doesExists = null;
+		doesExistsEvent = null;
+		doesNotExistsEvent = null;
+	}
+
+	public override void OnEnter()
+	{
+		PlayMakerHashTableProxy hashTableProxyPointer = GetHashTableProxyPointer(Fsm.GetOwnerDefaultTarget(gameObject), reference.Value, silent: true);
+		bool flag = hashTableProxyPointer != null;
+		doesExists.Value = flag;
+		if (flag)
+		{
+			Fsm.Event(doesExistsEvent);
+		}
+		else
+		{
+			Fsm.Event(doesNotExistsEvent);
+		}
+		Finish();
+	}
+}

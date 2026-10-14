@@ -1,0 +1,68 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Flips the horizontal and vertical axes of the RectTransform size and alignment, and optionally its children as well.")]
+[ActionCategory("RectTransform")]
+public class RectTransformFlipLayoutAxis : FsmStateAction
+{
+	public enum RectTransformFlipOptions
+	{
+		Horizontal,
+		Vertical,
+		Both
+	}
+
+	[CheckForComponent(typeof(RectTransform))]
+	[Tooltip("The GameObject target.")]
+	[RequiredField]
+	public FsmOwnerDefault gameObject;
+
+	[Tooltip("The axis to flip")]
+	public RectTransformFlipOptions axis;
+
+	[Tooltip("Flips around the pivot if true. Flips within the parent rect if false.")]
+	public FsmBool keepPositioning;
+
+	[Tooltip("Flip the children as well?")]
+	public FsmBool recursive;
+
+	public override void Reset()
+	{
+		gameObject = null;
+		axis = RectTransformFlipOptions.Both;
+		keepPositioning = null;
+		recursive = null;
+	}
+
+	public override void OnEnter()
+	{
+		DoFlip();
+		Finish();
+	}
+
+	private void DoFlip()
+	{
+		GameObject ownerDefaultTarget = Fsm.GetOwnerDefaultTarget(gameObject);
+		if (!(ownerDefaultTarget != null))
+		{
+			return;
+		}
+		RectTransform component = ownerDefaultTarget.GetComponent<RectTransform>();
+		if (component != null)
+		{
+			if (axis == RectTransformFlipOptions.Both)
+			{
+				RectTransformUtility.FlipLayoutAxes(component, keepPositioning.Value, recursive.Value);
+			}
+			else if (axis == RectTransformFlipOptions.Horizontal)
+			{
+				RectTransformUtility.FlipLayoutOnAxis(component, 0, keepPositioning.Value, recursive.Value);
+			}
+			else if (axis == RectTransformFlipOptions.Vertical)
+			{
+				RectTransformUtility.FlipLayoutOnAxis(component, 1, keepPositioning.Value, recursive.Value);
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_H01-1_5
+  m_Rect:
+    serializedVersion: 2
+    x: 186.04291
+    y: 176
+    width: 113.95709
+    height: 164.97325
+  m_Offset: {x: -7.401458, y: -95.51062}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 05f27902cecdaa542b202d6378a93692, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.6681252, y: 5.56325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 4.31325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 4.657, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2931252, y: 2.5945, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.11312485, y: 5.56325, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8868752, y: 0.65700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 0.40700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0118752, y: 0.50075006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5118752, y: 2.157, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76937485, y: 0.56325006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.76937485, y: 0.40700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.80062485, y: 5.37575, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.80062485, y: 0.40700006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.1131248, y: 4.0945, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5506248, y: 0.87575006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5506248, y: 0.40700006, z: 0}
+    indices: 0f000e000c000d000c000e000b000c000d0009000c000b00040009000b000a0009000600050006000900040005000900030005000400080005000300070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 186.04291
+      y: 176
+      width: 113.95709
+      height: 164.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 235.62, z: 32, w: 162.976}

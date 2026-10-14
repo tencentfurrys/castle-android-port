@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RN_Ghost_H01_4_2
+  m_Rect:
+    serializedVersion: 2
+    x: 168
+    y: 0
+    width: 84
+    height: 74
+  m_Offset: {x: -25.998001, y: -49.9907}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 56c868205d8eba14595bba02f9f725a4, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.50006247, y: 2.7184594, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1249375, y: 0.40595937, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1249375, y: 2.7184594, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.50006247, y: 0.40595937, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 168
+      y: 0
+      width: 84
+      height: 74
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 184.002, z: 32, w: -12.9907}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Failer_Stand_H03_W_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 128
+    width: 68
+    height: 127.948685
+  m_Offset: {x: 0, y: -63.974342}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2b39a994e4e24cc44b0dc6a54ce0eab9, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 1.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4375, y: 1.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.625, y: 1.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.84375, y: 2.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.625, y: 1.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.90625, y: 3.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0625, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.0625, y: 3.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.4375, y: 1.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.53125, y: 1.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5625, y: 1.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625, y: 0.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.0625, y: 0, z: 0}
+    indices: 050003000c0001000c0003000b000c0001000a000b00010002000a0001000e000d0007000c0007000d0005000c000d00040005000d000b0007000c000a0007000b00020007000a00000007000200090007000000060007000900080007000600000003000400050004000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 68
+      height: 127.948685
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 34, z: 32, w: 128}

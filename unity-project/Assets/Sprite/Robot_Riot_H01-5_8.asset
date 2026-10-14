@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H01-5_8
+  m_Rect:
+    serializedVersion: 2
+    x: 448.0761
+    y: 204
+    width: 112.774536
+    height: 203.98709
+  m_Offset: {x: -10.46509, y: -114.98019}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 676835c7bafa5444ab0cc26b7a8200e0, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.1875534, y: 5.2808323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4688034, y: 4.3120823, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5313034, y: 4.4683323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.093803406, y: 3.8745823, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9374466, y: 6.7808323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.6250534, y: 3.9995823, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0938034, y: 0.4058323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.0625534, y: 0.4995823, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375534, y: 4.1558323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3438034, y: 4.1558323, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1563034, y: 3.9370823, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1563034, y: 3.8433323, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3124466, y: 6.7808323, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4374466, y: 6.5308323, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4374466, y: 0.4058323, z: 0}
+    indices: 0d0003000e0006000e0003000c0003000d00040003000c000b00060003000a0006000b00090006000a00080006000900050006000800070006000500040000000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 448.0761
+      y: 204
+      width: 112.774536
+      height: 203.98709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 493.9983, z: 32, w: 191.01337}

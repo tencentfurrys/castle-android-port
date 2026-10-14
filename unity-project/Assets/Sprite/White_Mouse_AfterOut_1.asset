@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_AfterOut_1
+  m_Rect:
+    serializedVersion: 2
+    x: 152
+    y: 0
+    width: 152
+    height: 160
+  m_Offset: {x: 5.927996, y: -92.996796}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a8969e1d39a2af948a10e10aa3dd2b5a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.7210002, y: 5.40615, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1897502, y: 0.40614986, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.1897502, y: 3.5311499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5289998, y: 0.40614986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.8102498, y: 0.53114986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.9352498, y: 5.40615, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5602498, y: 0.40614986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.7789998, y: 0.40614986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.5602498, y: 2.9061499, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.5602498, y: 0.87489986, z: 0}
+    indices: 090008000600050006000800040006000500070006000400050000000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 152
+      y: 0
+      width: 152
+      height: 160
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 233.928, z: 32, w: -12.996796}

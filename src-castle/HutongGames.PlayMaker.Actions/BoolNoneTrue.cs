@@ -1,0 +1,65 @@
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Tests if all the Bool Variables are False.\nSend an event or store the result.")]
+[ActionCategory(ActionCategory.Logic)]
+public class BoolNoneTrue : FsmStateAction
+{
+	[Tooltip("The Bool variables to check.")]
+	[RequiredField]
+	[UIHint(UIHint.Variable)]
+	public FsmBool[] boolVariables;
+
+	[Tooltip("Event to send if none of the Bool variables are True.")]
+	public FsmEvent sendEvent;
+
+	[Tooltip("Store the result in a Bool variable.")]
+	[UIHint(UIHint.Variable)]
+	public FsmBool storeResult;
+
+	[Tooltip("Repeat every frame while the state is active.")]
+	public bool everyFrame;
+
+	public override void Reset()
+	{
+		boolVariables = null;
+		sendEvent = null;
+		storeResult = null;
+		everyFrame = false;
+	}
+
+	public override void OnEnter()
+	{
+		DoNoneTrue();
+		if (!everyFrame)
+		{
+			Finish();
+		}
+	}
+
+	public override void OnUpdate()
+	{
+		DoNoneTrue();
+	}
+
+	private void DoNoneTrue()
+	{
+		if (boolVariables.Length == 0)
+		{
+			return;
+		}
+		bool flag = true;
+		for (int i = 0; i < boolVariables.Length; i++)
+		{
+			if (boolVariables[i].Value)
+			{
+				flag = false;
+				break;
+			}
+		}
+		if (flag)
+		{
+			Fsm.Event(sendEvent);
+		}
+		storeResult.Value = flag;
+	}
+}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Girl_H02_Out02_6
+  m_Rect:
+    serializedVersion: 2
+    x: 278.0761
+    y: 64.0335
+    width: 37.897125
+    height: 25.953587
+  m_Offset: {x: 2.973525, y: -43.006493}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 48677f33bc4d7d14bbcb4fd0095fb954, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.06255627, y: 1.5936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.031306267, y: 1.0311313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.06255627, y: 1.1561313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031193733, y: 0.96863127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.15619373, y: 0.93738127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28119373, y: 1.5936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40619373, y: 0.93738127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.56244373, y: 0.99988127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.68744373, y: 1.5936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.68744373, y: 1.1561313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34380627, y: 1.5936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34380627, y: 1.5311313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34380627, y: 1.5623813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25005627, y: 1.4998813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21880627, y: 1.7498813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15630627, y: 1.7498813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12505627, y: 1.6561313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43755627, y: 1.5936313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.50005627, y: 1.4686313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.50005627, y: 1.5623813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40630627, y: 1.3436313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37505627, y: 1.3436313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34380627, y: 1.5311313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.34380627, y: 1.3436313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28130627, y: 1.4061313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46880627, y: 1.3123813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.43755627, y: 1.1561313, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.46880627, y: 1.2498813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28130627, y: 1.3123813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25005627, y: 1.0623813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15630627, y: 1.0623813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12505627, y: 1.1873813, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.12505627, y: 1.1248813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28119373, y: 1.7498813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.18744373, y: 1.6248813, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.18744373, y: 1.7186313, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34369373, y: 1.6873813, z: 0}
+    indices: 24002100050022000500210023002200210020001f001e001c001e001f001d001e001c001a001d001c0015001a001c0019001a0015001b001a00190016000b000c0018000b001700160017000b001500170016000c0015001600110015000c0014001500110012001400110013001200110010000f000d000e000d000f000a000d000e000b000d000a000c000b000a00090008000700050007000800060007000500040006000500000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 278.0761
+      y: 64.0335
+      width: 37.897125
+      height: 25.953587
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 299.9982, z: 32, w: 34.0038}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Girl_Stand_6
+  m_Rect:
+    serializedVersion: 2
+    x: 421.05133
+    y: 0
+    width: 68.948685
+    height: 147.96924
+  m_Offset: {x: -4.5261617, y: -86.98212}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 965f332d59a29b848b975fd4cfc76d54, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.65623474, y: 5.031172, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40623474, y: 2.6561718, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40626526, y: 5.031172, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.43748474, y: 2.5624218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.65623474, y: 2.6249218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.78123474, y: 2.8749218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.93748474, y: 4.468672, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.93748474, y: 3.3124218, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2187653, y: 3.7186718, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.93751526, y: 0.4061718, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.2187653, y: 2.3749218, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71876526, y: 4.968672, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.46873474, y: 2.3124218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.56248474, y: 1.3749218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.56248474, y: 0.4061718, z: 0}
+    indices: 0e000d0009000c0009000d00010009000c000200090001000b0009000200080009000b000a0009000800070006000500000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 421.05133
+      y: 0
+      width: 68.948685
+      height: 147.96924
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 450.9995, z: 32, w: -12.997498}

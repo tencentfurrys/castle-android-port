@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Player_Attack
+  - Enemy_Attack
+  - Ground
+  - Image
+  - H_Action
+  - BatChoco
+  - Enemy_Attack
+  - H_Out
+  - BatChoco_HPBar
+  - Enemy_Taunt
+  - Enemy_Addict
+  - Enemy_Down
+  - Player_Taunt
+  - Positive
+  - Negative
+  - Player_Benefit
+  - Enemy_Benefit
+  - Enemy_Break
+  - Camera_End
+  - Obstacle
+  - Bat_Collect
+  - Item_Break
+  - Enemy_Co
+  - Fire
+  - UI
+  - MiniMap
+  - Item_Map
+  - Warning
+  - BackGround
+  - Bat_Camera
+  - Enemy_Word
+  - Bat_Attack
+  - Block
+  - Bat_Benefit
+  - Bridge
+  - Item
+  - Moving_Grid
+  - Ice_Ground
+  - Move_Grid_R
+  - Move_Grid_L
+  - Move_Grid
+  - Interactive
+  - Cloth
+  - Door
+  - Box_Button
+  - Spring
+  - Over_Check
+  - Interactive_Now
+  - Muddy
+  - BD_Grid_L_Add
+  - BD_Grid_R_Add
+  - Guest
+  - Tri_Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - H_Animate
+  - Only_Ground
+  - Ground
+  - Half_Ground
+  - Enemy_Attack
+  - H_Out
+  - Player_Benefit
+  - Only_2_Ground
+  - Obstacle_Box
+  - Box_Area
+  - Only_Half_Ground
+  - Active
+  - E_Only_Ground
+  - Tri_Ground
+  - Wall_Ground
+  - Player_Ground
+  - Body_Effect
+  - P_Only_Ground
+  - P_Block_Area
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: LastBack
+    uniqueID: 1602709703
+    locked: 0
+  - name: BackGround
+    uniqueID: 1678461017
+    locked: 0
+  - name: Ground_Effect
+    uniqueID: 3073046631
+    locked: 0
+  - name: Ground
+    uniqueID: 3598091135
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1912544917
+    locked: 0
+  - name: Enemy
+    uniqueID: 85282619
+    locked: 0
+  - name: Player
+    uniqueID: 27234437
+    locked: 0
+  - name: H_Scene
+    uniqueID: 2931495359
+    locked: 0
+  - name: BatChoco
+    uniqueID: 1358601849
+    locked: 0
+  - name: Effect
+    uniqueID: 3149346345
+    locked: 0
+  - name: BackGround_Front
+    uniqueID: 1210064191
+    locked: 0
+  - name: UI
+    uniqueID: 1041029303
+    locked: 0
+  - name: FadeInOut
+    uniqueID: 3676836941
+    locked: 0
+  - name: LoadingUI
+    uniqueID: 2239232599
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

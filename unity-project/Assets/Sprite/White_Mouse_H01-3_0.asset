@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_H01-3_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 176
+    height: 122
+  m_Offset: {x: -2.6399975, y: -73.932}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 79b05690a39157f46877586f023a8e48, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2.8325, y: 3.060375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.8325, y: 0.40412498, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.8325, y: 1.904125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.73875, y: 4.216625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.07375, y: 0.40412498, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.6675, y: 4.216625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.6675, y: 1.497875, z: 0}
+    indices: 060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 176
+      height: 122
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 85.36, z: 32, w: -12.931999}

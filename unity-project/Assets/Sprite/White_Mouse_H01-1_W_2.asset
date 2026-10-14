@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: White_Mouse_H01-1_W_2
+  m_Rect:
+    serializedVersion: 2
+    x: 60
+    y: 44
+    width: 30
+    height: 22
+  m_Offset: {x: -2.3700025, y: -87.032005}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: caea4b53958dcdb48ab79113da4b6b59, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -0.3946874, y: 3.0635002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5428126, y: 3.0635002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3946874, y: 2.3760002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5428126, y: 2.3760002, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 60
+      y: 44
+      width: 30
+      height: 22
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 72.63, z: 32, w: -32.032005}

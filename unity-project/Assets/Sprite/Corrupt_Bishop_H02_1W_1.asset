@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Corrupt_Bishop_H02_1W_1
+  m_Rect:
+    serializedVersion: 2
+    x: 32
+    y: 0
+    width: 32
+    height: 74.98709
+  m_Offset: {x: 0, y: -37.493546}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d56f11e5fddce91439402966d594b452, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.3125, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 0.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.34375, y: 0.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.375, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 0.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 0.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.40625, y: 1.9375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3125, y: 1.5625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 2.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.46875, y: 1.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 2.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 1.59375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 1.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 1.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3125, y: 1.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3125, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.375, y: 1.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.5, y: 1.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 1.15625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 1.46875, z: 0}
+    indices: 100012000f000e000c001400150014000c00130011000e0010000e0011001200100011000f000e00100008000e000f0009000e0008000c000e0009000b000c0009000d000c000b000a0007000800090008000700060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 32
+      height: 74.98709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 48, z: 32, w: 0}

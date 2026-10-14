@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H02-2B_7
+  m_Rect:
+    serializedVersion: 2
+    x: 64
+    y: 0
+    width: 32
+    height: 36
+  m_Offset: {x: -6.993599, y: -110.9988}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ccd863f5f7de8024cb8133933725b09e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.59354997, y: 4.031213, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71854997, y: 3.1249626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71854997, y: 3.7499626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.53104997, y: 2.9062126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.37479997, y: 3.3124626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18729997, y: 3.1249626, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.031450033, y: 2.9062126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.18729997, y: 2.9062126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25020003, y: 4.031213, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28145003, y: 3.9999626, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28145003, y: 3.1249626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.28104997, y: 2.9062126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21854997, y: 3.1249626, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.21854997, y: 3.0312126, z: 0}
+    indices: 0d000c000b0004000b000c0003000b0004000a0009000600080006000900000006000800050006000000070006000500040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 32
+      height: 36
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 73.0064, z: 32, w: -92.9988}

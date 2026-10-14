@@ -1,0 +1,13 @@
+Library/
+Temp/
+Obj/
+Build/
+*.apk
+*.ap_
+*.log
+.DS_Store
+# oversized Ripper scenes (>100MB GitHub file limit) - shipped via Release assets
+unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_02.unity
+unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_03.unity
+unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_04.unity
+unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_Gallery.unity

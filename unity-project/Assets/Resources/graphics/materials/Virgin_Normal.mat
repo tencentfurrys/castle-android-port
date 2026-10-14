@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Virgin_Normal
+  m_Shader: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+  m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 7ebb68c7e196eed4cac3b4e458d2e520, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
+          name: _AO
+        second: 2.4
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _AlphaPower
+        second: 1
+      data:
+        first:
+          name: _AtmosphereThickness
+        second: 1
+      data:
+        first:
+          name: _Bands
+        second: 8
+      data:
+        first:
+          name: _BaseLight
+        second: 0.35
+      data:
+        first:
+          name: _BlendDst
+        second: 10
+      data:
+        first:
+          name: _BlendSrc
+        second: 5
+      data:
+        first:
+          name: _BlueRegionIntensity
+        second: 1
+      data:
+        first:
+          name: _Brightness
+        second: 5
+      data:
+        first:
+          name: _BulgeScale
+        second: 0.2
+      data:
+        first:
+          name: _BulgeShape
+        second: 5
+      data:
+        first:
+          name: _BumpAmt
+        second: 10
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _ColorMask
+        second: 15
+      data:
+        first:
+          name: _Cull
+        second: 2
+      data:
+        first:
+          name: _CutOff
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Depth
+        second: 0.25
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _EdgeLength
+        second: 10
+      data:
+        first:
+          name: _EffectAmount
+        second: 1
+      data:
+        first:
+          name: _Exposure
+        second: 1
+      data:
+        first:
+          name: _FlipAlphaMask
+        second: 0
+      data:
+        first:
+          name: _Gloss
+        second: 0.4511278
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _GlowIntensity
+        second: 1.2
+      data:
+        first:
+          name: _GlowRange
+        second: 0.6
+      data:
+        first:
+          name: _GrayScale
+        second: 1
+      data:
+        first:
+          name: _GreenRegionIntensity
+        second: 1
+      data:
+        first:
+          name: _HardBlend
+        second: 0
+      data:
+        first:
+          name: _Hue
+        second: 0
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Magnitude
+        second: 1
+      data:
+        first:
+          name: _MaxX
+        second: 10
+      data:
+        first:
+          name: _MaxY
+        second: 10
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _MinX
+        second: -10
+      data:
+        first:
+          name: _MinY
+        second: -10
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _NoOuterClip
+        second: 0
+      data:
+        first:
+          name: _NoiseAmount
+        second: 0.025
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _Outline
+        second: 0.005
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _Power
+        second: 1
+      data:
+        first:
+          name: _RedRegionIntensity
+        second: 1
+      data:
+        first:
+          name: _Refraction
+        second: 1
+      data:
+        first:
+          name: _RefractionIntensity
+        second: 0.1
+      data:
+        first:
+          name: _Rotation
+        second: 0
+      data:
+        first:
+          name: _Sat
+        second: 1
+      data:
+        first:
+          name: _Shininess
+        second: 0.1
+      data:
+        first:
+          name: _Speed
+        second: 0.7
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _Stencil
+        second: 0
+      data:
+        first:
+          name: _StencilComp
+        second: 8
+      data:
+        first:
+          name: _StencilOp
+        second: 0
+      data:
+        first:
+          name: _StencilReadMask
+        second: 255
+      data:
+        first:
+          name: _StencilWriteMask
+        second: 255
+      data:
+        first:
+          name: _Strength
+        second: 2
+      data:
+        first:
+          name: _SunDisk
+        second: 2
+      data:
+        first:
+          name: _SunSize
+        second: 0.04
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _UseUIAlphaClip
+        second: 0
+      data:
+        first:
+          name: _Val
+        second: 1
+      data:
+        first:
+          name: _WindQuality
+        second: 0
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: number
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _BlueRegionCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Diffuse
+        second: {r: 0.9117647, g: 0.8760425, b: 0.8179066, a: 1}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _GlowColor
+        second: {r: 1, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _GreenRegionCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _GroundColor
+        second: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+      data:
+        first:
+          name: _HSV
+        second: {r: 1, g: 0.5, b: 1, a: 1}
+      data:
+        first:
+          name: _HueVariation
+        second: {r: 1, g: 0.5, b: 0, a: 0.1}
+      data:
+        first:
+          name: _LightWrapping
+        second: {r: 0.9058824, g: 0.4941176, b: 0.4901961, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _RGB
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RedRegionCol
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SkyTint
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+      data:
+        first:
+          name: _Tint
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _Tint1
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Tint2
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _TreeInstanceColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TreeInstanceScale
+        second: {r: 1, g: 1, b: 1, a: 1}

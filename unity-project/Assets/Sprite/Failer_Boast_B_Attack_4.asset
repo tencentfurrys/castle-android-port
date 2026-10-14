@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Failer_Boast_B_Attack_4
+  m_Rect:
+    serializedVersion: 2
+    x: 120
+    y: 1.026751
+    width: 62
+    height: 87.9465
+  m_Offset: {x: 0, y: -45}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 562b734ef67ec6946bd9e27bb7b3e812, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.96875, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.84375, y: 0.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.96875, y: 0.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.875, y: 2.78125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.96875, y: 2.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.96875, y: 0.03125, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 120
+      y: 1.026751
+      width: 62
+      height: 87.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 151, z: 32, w: 0}

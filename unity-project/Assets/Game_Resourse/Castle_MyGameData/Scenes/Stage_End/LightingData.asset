@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LightingData
+  m_Lightmaps: []
+  m_LightProbes: {fileID: 25800000, guid: 217f2f7154369dd4e8a1df65e0ef90e1, type: 2}
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0
+    sh[ 1]: 0
+    sh[ 2]: 0
+    sh[ 3]: 0
+    sh[ 4]: 0
+    sh[ 5]: 0
+    sh[ 6]: 0
+    sh[ 7]: 0
+    sh[ 8]: 0
+    sh[ 9]: 0
+    sh[10]: 0
+    sh[11]: 0
+    sh[12]: 0
+    sh[13]: 0
+    sh[14]: 0
+    sh[15]: 0
+    sh[16]: 0
+    sh[17]: 0
+    sh[18]: 0
+    sh[19]: 0
+    sh[20]: 0
+    sh[21]: 0
+    sh[22]: 0
+    sh[23]: 0
+    sh[24]: 0
+    sh[25]: 0
+    sh[26]: 0
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 42364
+    targetPrefab: 0
+  - targetObject: 42365
+    targetPrefab: 0
+  - targetObject: 42366
+    targetPrefab: 0
+  - targetObject: 42367
+    targetPrefab: 0
+  - targetObject: 42368
+    targetPrefab: 0
+  - targetObject: 42369
+    targetPrefab: 0
+  - targetObject: 42370
+    targetPrefab: 0
+  - targetObject: 42371
+    targetPrefab: 0
+  - targetObject: 42372
+    targetPrefab: 0
+  - targetObject: 42373
+    targetPrefab: 0
+  - targetObject: 42374
+    targetPrefab: 0
+  - targetObject: 42375
+    targetPrefab: 0
+  - targetObject: 42376
+    targetPrefab: 0
+  - targetObject: 42377
+    targetPrefab: 0
+  - targetObject: 42378
+    targetPrefab: 0
+  - targetObject: 42379
+    targetPrefab: 0
+  - targetObject: 42380
+    targetPrefab: 0
+  - targetObject: 42381
+    targetPrefab: 0
+  - targetObject: 42382
+    targetPrefab: 0
+  - targetObject: 42383
+    targetPrefab: 0
+  - targetObject: 42384
+    targetPrefab: 0
+  - targetObject: 42385
+    targetPrefab: 0
+  - targetObject: 42386
+    targetPrefab: 0
+  - targetObject: 42387
+    targetPrefab: 0
+  - targetObject: 42388
+    targetPrefab: 0
+  - targetObject: 42389
+    targetPrefab: 0
+  - targetObject: 42390
+    targetPrefab: 0
+  - targetObject: 42391
+    targetPrefab: 0
+  - targetObject: 42392
+    targetPrefab: 0
+  - targetObject: 42393
+    targetPrefab: 0
+  - targetObject: 42394
+    targetPrefab: 0
+  - targetObject: 42395
+    targetPrefab: 0
+  - targetObject: 42396
+    targetPrefab: 0
+  - targetObject: 42397
+    targetPrefab: 0
+  - targetObject: 42398
+    targetPrefab: 0
+  m_BakedReflectionProbeCubemaps: []
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000006352e782e7800352e332e3866320000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_EnlightenDataVersion: 112

@@ -1,0 +1,79 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions;
+
+[ActionCategory(ActionCategory.Material)]
+[Tooltip("Sets the Offset of a named texture in a Game Object's Material. Useful for scrolling texture effects.")]
+public class SetTextureOffset : ComponentAction<Renderer>
+{
+	[RequiredField]
+	[CheckForComponent(typeof(Renderer))]
+	public FsmOwnerDefault gameObject;
+
+	public FsmInt materialIndex;
+
+	public FsmMaterial material;
+
+	[UIHint(UIHint.NamedColor)]
+	[RequiredField]
+	public FsmString namedTexture;
+
+	[RequiredField]
+	public FsmFloat offsetX;
+
+	[RequiredField]
+	public FsmFloat offsetY;
+
+	public bool everyFrame;
+
+	public override void Reset()
+	{
+		gameObject = null;
+		materialIndex = 0;
+		material = null;
+		namedTexture = "_MainTex";
+		offsetX = 0f;
+		offsetY = 0f;
+		everyFrame = false;
+	}
+
+	public override void OnEnter()
+	{
+		DoSetTextureOffset();
+		if (!everyFrame)
+		{
+			Finish();
+		}
+	}
+
+	public override void OnUpdate()
+	{
+		DoSetTextureOffset();
+	}
+
+	private void DoSetTextureOffset()
+	{
+		GameObject ownerDefaultTarget = Fsm.GetOwnerDefaultTarget(gameObject);
+		if (material.Value != null)
+		{
+			material.Value.SetTextureOffset(namedTexture.Value, new Vector2(offsetX.Value, offsetY.Value));
+		}
+		else if (UpdateCache(ownerDefaultTarget))
+		{
+			if (renderer.material == null)
+			{
+				LogError("Missing Material!");
+			}
+			else if (materialIndex.Value == 0)
+			{
+				renderer.material.SetTextureOffset(namedTexture.Value, new Vector2(offsetX.Value, offsetY.Value));
+			}
+			else if (renderer.materials.Length > materialIndex.Value)
+			{
+				Material[] materials = renderer.materials;
+				materials[materialIndex.Value].SetTextureOffset(namedTexture.Value, new Vector2(offsetX.Value, offsetY.Value));
+				renderer.materials = materials;
+			}
+		}
+	}
+}

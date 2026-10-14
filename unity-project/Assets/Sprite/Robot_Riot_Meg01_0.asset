@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_Meg01_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 164
+    height: 127.9665
+  m_Offset: {x: -25.001799, y: -70.98485}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 61911e7d459f47e4494b5f18c41fcee1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 3.2188063, y: 3.31255, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.3438063, y: 0.31255007, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.3438063, y: 3.3438, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.0938063, y: 3.2188, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.0938063, y: 0.21880007, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.2500563, y: 4.2188, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24994373, y: 4.2188, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.4999437, y: 2.43755, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.7811937, y: 1.1875501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.7811937, y: 0.21880007, z: 0}
+    indices: 090008000400070004000800060004000700050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 164
+      height: 127.9665
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 56.9982, z: 32, w: -7.001602}

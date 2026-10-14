@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SS_Stand_01_10
+  m_Rect:
+    serializedVersion: 2
+    x: 262
+    y: 311.0761
+    width: 26.92388
+    height: 130.88399
+  m_Offset: {x: 5.53806, y: -76.518105}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 25ecde21ff1072a4f907800a859d9893, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 4.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.1875, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.25, y: 0.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.03125, y: 4.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 4.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.59375, y: 0.34375, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 262
+      y: 311.0761
+      width: 26.92388
+      height: 130.88399
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 281, z: 32, w: 300}

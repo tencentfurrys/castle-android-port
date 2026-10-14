@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Riot_H01-4_L_2
+  m_Rect:
+    serializedVersion: 2
+    x: 240
+    y: 0
+    width: 120
+    height: 127.97325
+  m_Offset: {x: 113.01001, y: -76.973625}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9b97c47908945594abb1fc9206be21d7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -1.8128128, y: 4.2808437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6565628, y: 2.4058437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.6565628, y: 4.2183437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9378128, y: 4.2183437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.9378128, y: 4.1245937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.0940628, y: 4.4058437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.1253128, y: 0.40584373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.6565628, y: 4.4058437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.6565628, y: 0.40584373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3.8753128, y: 4.1558437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.562813, y: 0.53084373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.156563, y: 0.40584373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.562813, y: 0.40584373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.406563, y: 0.90584373, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5.406563, y: 0.59334373, z: 0}
+    indices: 0e000d000b0009000b000d000a000b0009000c000b000a0008000a000900070008000900060008000700050006000700010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 120
+      height: 127.97325
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 413.01, z: 32, w: -12.9869995}

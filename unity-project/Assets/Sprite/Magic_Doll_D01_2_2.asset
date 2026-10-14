@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Magic_Doll_D01_2_2
+  m_Rect:
+    serializedVersion: 2
+    x: 202.07613
+    y: 11.026751
+    width: 93.880974
+    height: 88.9465
+  m_Offset: {x: 0.98338455, y: -55.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 79dbe90eddb8d8b49a0fb5f55952a6f7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.4375, y: 0.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.3125, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.4375, y: 0.65625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.1875, y: 1.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 2.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375, y: 3.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.71875, y: 3.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5, y: 1.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5, y: 0.34375, z: 0}
+    indices: 080007000100060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 202.07613
+      y: 11.026751
+      width: 93.880974
+      height: 88.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 250, z: 32, w: 0}

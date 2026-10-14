@@ -1,0 +1,44 @@
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions;
+
+[Tooltip("Stops all playing Animations on a Game Object. Optionally, specify a single Animation to Stop.")]
+[ActionCategory(ActionCategory.Animation)]
+public class StopAnimation : ComponentAction<Animation>
+{
+	[CheckForComponent(typeof(Animation))]
+	[RequiredField]
+	public FsmOwnerDefault gameObject;
+
+	[UIHint(UIHint.Animation)]
+	[Tooltip("Leave empty to stop all playing animations.")]
+	public FsmString animName;
+
+	public override void Reset()
+	{
+		gameObject = null;
+		animName = null;
+	}
+
+	public override void OnEnter()
+	{
+		DoStopAnimation();
+		Finish();
+	}
+
+	private void DoStopAnimation()
+	{
+		GameObject ownerDefaultTarget = Fsm.GetOwnerDefaultTarget(gameObject);
+		if (UpdateCache(ownerDefaultTarget))
+		{
+			if (animName == null || string.IsNullOrEmpty(animName.Value))
+			{
+				animation.Stop();
+			}
+			else
+			{
+				animation.Stop(animName.Value);
+			}
+		}
+	}
+}

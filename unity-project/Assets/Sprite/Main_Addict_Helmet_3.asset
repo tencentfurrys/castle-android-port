@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Main_Addict_Helmet_3
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 46
+    height: 46
+  m_Offset: {x: -3.0015004, y: -135.01}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 317ca339c41e17944970882d2695ebb5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.3750469, y: 4.9378123, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125469, y: 3.5003123, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125469, y: 4.5315623, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.24995309, y: 4.9378123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.3124531, y: 3.5003123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6249531, y: 4.5628123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6249531, y: 3.8753123, z: 0}
+    indices: 060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 46
+      height: 46
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 19.998499, z: 32, w: -112.009995}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SS_MouthDone_01_0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 11.07612
+    width: 60.923878
+    height: 118.92388
+  m_Offset: {x: 4.5380607, y: -70.538055}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 8fe08b135b7bda141bc201c6833d5286, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 4.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.8125, y: 3.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.28125, y: 4.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.65625, y: 0.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.71875, y: 3.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.71875, y: 0.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.09375, y: 2.53125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.09375, y: 1.65625, z: 0}
+    indices: 080007000600050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 11.07612
+      width: 60.923878
+      height: 118.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 35, z: 32, w: 0}

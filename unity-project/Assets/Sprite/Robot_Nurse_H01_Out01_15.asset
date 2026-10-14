@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Robot_Nurse_H01_Out01_15
+  m_Rect:
+    serializedVersion: 2
+    x: 119.07612
+    y: 30.036285
+    width: 15.910967
+    height: 9.887592
+  m_Offset: {x: -6.0319986, y: -47.972084}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 80bc8da9eceb8614d8a8d22aaa75e8dd, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.4375124, y: 1.5935, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.3750124, y: 1.37475, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.4375124, y: 1.43725, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2500124, y: 1.3435, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.2187624, y: 1.656, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.0937624, y: 1.37475, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.062487602, y: 1.656, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.062487602, y: 1.4685, z: 0}
+    indices: 070006000500040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 119.07612
+      y: 30.036285
+      width: 15.910967
+      height: 9.887592
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 120.9996, z: 32, w: -12.992001}

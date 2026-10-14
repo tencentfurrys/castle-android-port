@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Site_Doll_H03_01_7
+  m_Rect:
+    serializedVersion: 2
+    x: 540
+    y: 280
+    width: 179.98709
+    height: 138.96204
+  m_Offset: {x: 0.006458296, y: -69.48102}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 32
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 80a5b5b5153fb9345bdf0819c1ae9425, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.0625, y: 2.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.8125, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.8125, y: 1.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.84375, y: 3.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.40625, y: 4.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.625, y: 3.75, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.0625, y: 4.34375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.6875, y: 4.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.09375, y: 2.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.8125, y: 1.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.8125, y: 0, z: 0}
+    indices: 0a0009000100080001000900070001000800060001000700030001000600040003000600050003000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 540
+      y: 280
+      width: 179.98709
+      height: 138.96204
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 32, y: 630, z: 32, w: 280}
