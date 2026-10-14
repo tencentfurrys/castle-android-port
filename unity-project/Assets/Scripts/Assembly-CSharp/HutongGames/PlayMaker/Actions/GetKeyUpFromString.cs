@@ -36,7 +36,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnUpdate()
 		{
-			bool keyUp = Input.GetKeyUp(key);
+			bool keyUp = (Input.GetKeyUp(key) || CastleTouch.Up(key));
 			if (keyUp)
 			{
 				storeKey.Value = keyCode.Value;

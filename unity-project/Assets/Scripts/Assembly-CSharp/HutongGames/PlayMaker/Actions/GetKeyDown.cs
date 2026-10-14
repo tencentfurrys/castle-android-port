@@ -23,7 +23,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnUpdate()
 		{
-			bool keyDown = Input.GetKeyDown(key);
+			bool keyDown = (Input.GetKeyDown(key) || CastleTouch.Down(key));
 			if (keyDown)
 			{
 				base.Fsm.Event(sendEvent);

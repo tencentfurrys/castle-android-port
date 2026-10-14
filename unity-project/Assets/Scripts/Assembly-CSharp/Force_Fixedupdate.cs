@@ -16,7 +16,7 @@ public class Force_Fixedupdate : MonoBehaviour
 
 	private void Update()
 	{
-		horizontalMove = Input.GetAxisRaw("Horizontal") * power;
+		horizontalMove = (Input.GetAxisRaw("Horizontal") + CastleTouch.Axis("Horizontal")) * power;
 	}
 
 	private void FixedUpdate()
