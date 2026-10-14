@@ -52,7 +52,7 @@ TextureImporter:
     maxTextureSize: 2048
     textureFormat: -1
     compressionQuality: 50
-    allowsAlphaSplitting: 0
+    allowsAlphaSplitting: 1
   spriteSheet:
     serializedVersion: 2
     sprites: []

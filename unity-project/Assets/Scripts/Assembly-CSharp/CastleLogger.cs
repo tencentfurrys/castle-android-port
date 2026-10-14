@@ -25,7 +25,7 @@ public static class CastleLogger
 		filePath = Path.Combine(Application.persistentDataPath, "CastlePort.log");
 		try
 		{
-			File.AppendAllText(filePath, "=== boot " + System.DateTime.Now.ToString("HH:mm:ss")
+			Append("=== boot " + System.DateTime.Now.ToString("HH:mm:ss")
 				+ " " + Application.loadedLevelName + " ===\n");
 		}
 		catch (System.Exception)
@@ -48,11 +48,22 @@ public static class CastleLogger
 		{
 			try
 			{
-				File.AppendAllText(filePath, line + "\n");
+				Append(line + "\n");
 			}
 			catch (System.Exception)
 			{
 			}
+		}
+	}
+
+	// File.AppendAllText is missing from the 5.3 unity_web mscorlib profile
+	// (same reason S2 used FileStream in ScreenshotSystem): append via FileStream.
+	private static void Append(string text)
+	{
+		using (FileStream fs = new FileStream(filePath, FileMode.Append, FileAccess.Write))
+		{
+			byte[] b = System.Text.Encoding.UTF8.GetBytes(text);
+			fs.Write(b, 0, b.Length);
 		}
 	}
 

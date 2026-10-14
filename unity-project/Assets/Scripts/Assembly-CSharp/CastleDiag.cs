@@ -12,6 +12,7 @@ public class CastleDiag : MonoBehaviour
 	private float fps;
 	private string info = "";
 	private bool showLog = true;
+	private bool lastLoading;
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 	private static void Init()
@@ -35,7 +36,8 @@ public class CastleDiag : MonoBehaviour
 
 	private void OnLevelWasLoaded(int level)
 	{
-		CastleLogger.Log("scene loaded: " + Application.loadedLevelName + " (" + level + ")");
+		HutongGames.PlayMaker.Actions.LoadLevel2.NotifyLoadComplete();
+		CastleLogger.Log("scene loaded: " + Application.loadedLevelName + " (" + level + ") loading:" + (Application.isLoadingLevel ? "1" : "0"));
 	}
 
 	private void Update()
@@ -43,7 +45,13 @@ public class CastleDiag : MonoBehaviour
 		fps = fps * 0.9f + (1f / Mathf.Max(Time.deltaTime, 0.0001f)) * 0.1f;
 		info = Application.loadedLevelName + " fps:" + ((int)fps).ToString()
 			+ " mem:" + (System.GC.GetTotalMemory(false) / 1048576).ToString() + "MB"
-			+ " key:" + lastKey;
+			+ " key:" + lastKey
+			+ " loading:" + (Application.isLoadingLevel ? "1" : "0");
+		if (Application.isLoadingLevel != lastLoading)
+		{
+			lastLoading = Application.isLoadingLevel;
+			CastleLogger.Log("loading:" + (lastLoading ? "1" : "0") + " scene:" + Application.loadedLevelName);
+		}
 		if (errorCount > 0)
 		{
 			info = info + " ERRx" + errorCount.ToString() + ":" + lastError;

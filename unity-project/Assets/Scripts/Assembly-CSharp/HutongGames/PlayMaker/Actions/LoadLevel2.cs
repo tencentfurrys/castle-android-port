@@ -26,6 +26,20 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmBool dontDestroyOnLoad;
 
 		private AsyncOperation asyncOperation;
+		private bool waitingForSlot;
+
+		// CastlePort: Unity 5.x never finishes a second async scene load that
+		// starts while one is still in flight (title menu fires single +
+		// additive back to back; on slow devices the additive stalls silently
+		// with no error). Serialize: one async load at a time, rest wait.
+		private static AsyncOperation activeLoad;
+
+		public static void NotifyLoadComplete()
+		{
+			// Called by CastleDiag.OnLevelWasLoaded (survives scene switches).
+			// Rescues the slot when the loading FSM died in a single load.
+			activeLoad = null;
+		}
 
 		public override void Reset()
 		{
@@ -48,9 +62,7 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (async)
 				{
-					asyncOperation = Application.LoadLevelAdditiveAsync(levelName.Value);
-					asyncProgress.Value = 0f;
-					Debug.Log("LoadLevelAdditiveAsyc: " + levelName.Value);
+					TryBeginLoad(true);
 					return;
 				}
 				Application.LoadLevelAdditive(levelName.Value);
@@ -60,9 +72,7 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (async)
 				{
-					asyncOperation = Application.LoadLevelAsync(levelName.Value);
-					asyncProgress.Value = 0f;
-					Debug.Log("LoadLevelAsync: " + levelName.Value);
+					TryBeginLoad(false);
 					return;
 				}
 				Application.LoadLevel(levelName.Value);
@@ -73,10 +83,51 @@ namespace HutongGames.PlayMaker.Actions
 			Finish();
 		}
 
+		private void TryBeginLoad(bool additiveLoad)
+		{
+			if (activeLoad != null && !activeLoad.isDone)
+			{
+				waitingForSlot = true;
+				asyncOperation = null;
+				Debug.Log("LoadLevelDeferred: " + levelName.Value + " (waiting for active load)");
+				return;
+			}
+			BeginNow(additiveLoad);
+		}
+
+		private void BeginNow(bool additiveLoad)
+		{
+			asyncOperation = additiveLoad
+				? Application.LoadLevelAdditiveAsync(levelName.Value)
+				: Application.LoadLevelAsync(levelName.Value);
+			if (asyncOperation == null)
+			{
+				waitingForSlot = true;
+				Debug.Log("LoadLevelDeferred: " + levelName.Value + " (engine busy)");
+				return;
+			}
+			waitingForSlot = false;
+			activeLoad = asyncOperation;
+			asyncProgress.Value = 0f;
+			Debug.Log(additiveLoad ? "LoadLevelAdditiveAsyc: " + levelName.Value : "LoadLevelAsync: " + levelName.Value);
+		}
+
 		public override void OnUpdate()
 		{
+			if (waitingForSlot || asyncOperation == null)
+			{
+				if (activeLoad == null || activeLoad.isDone)
+				{
+					BeginNow(additive);
+				}
+				return;
+			}
 			if (asyncOperation.isDone)
 			{
+				if (activeLoad == asyncOperation)
+				{
+					activeLoad = null;
+				}
 				asyncProgress.Value = 1f;
 				base.Fsm.Event(loadedEvent);
 				Finish();
