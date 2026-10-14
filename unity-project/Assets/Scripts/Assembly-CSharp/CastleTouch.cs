@@ -17,6 +17,7 @@ public static class CastleTouch
 	{
 		held[name] = true;
 		downFrame[name] = Time.frameCount;
+		CastleDiag.NoteKey(name);
 	}
 
 	public static void Release(string name)
