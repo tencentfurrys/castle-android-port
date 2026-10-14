@@ -11,3 +11,8 @@ unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_02.unity
 unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_03.unity
 unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_04.unity
 unity-project/Assets/Game_Resourse/Castle_MyGameData/Scenes/Stage_Gallery.unity
+# retarget workdir (regenerable, large) + signing keys (never commit)
+apk-retarget/
+t28-unsigned.apk
+*.keystore
+pc-test/
