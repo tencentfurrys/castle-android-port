@@ -1,0 +1,37 @@
+version: 2.9.3
+apkFileName: Castle-1.1.2-android.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 16
+  targetSdkVersion: 23
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1
+  versionName: 1.1.2
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+doNotCompress:
+- resources.arsc
+- assets/bin/Data/globalgamemanagers.resource.split0
+- assets/bin/Data/globalgamemanagers.resource.split1
+- assets/bin/Data/globalgamemanagers.resource.split10
+- assets/bin/Data/globalgamemanagers.resource.split11
+- assets/bin/Data/globalgamemanagers.resource.split12
+- assets/bin/Data/globalgamemanagers.resource.split13
+- assets/bin/Data/globalgamemanagers.resource.split2
+- assets/bin/Data/globalgamemanagers.resource.split3
+- assets/bin/Data/globalgamemanagers.resource.split4
+- assets/bin/Data/globalgamemanagers.resource.split5
+- assets/bin/Data/globalgamemanagers.resource.split6
+- assets/bin/Data/globalgamemanagers.resource.split7
+- assets/bin/Data/globalgamemanagers.resource.split8
+- assets/bin/Data/globalgamemanagers.resource.split9
+- assets/bin/Data/sharedassets0.resource
+- png
