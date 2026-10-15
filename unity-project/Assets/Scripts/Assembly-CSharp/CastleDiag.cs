@@ -13,6 +13,8 @@ public class CastleDiag : MonoBehaviour
 	private string info = "";
 	private bool showLog = true;
 	private bool lastLoading;
+	private int frame;
+	private int objCount;
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 	private static void Init()
@@ -46,7 +48,12 @@ public class CastleDiag : MonoBehaviour
 		info = Application.loadedLevelName + " fps:" + ((int)fps).ToString()
 			+ " mem:" + (System.GC.GetTotalMemory(false) / 1048576).ToString() + "MB"
 			+ " key:" + lastKey
+			+ " objs:" + objCount.ToString()
 			+ " loading:" + (Application.isLoadingLevel ? "1" : "0");
+		if ((frame++ % 60) == 0)
+		{
+			objCount = Resources.FindObjectsOfTypeAll(typeof(GameObject)).Length;
+		}
 		if (Application.isLoadingLevel != lastLoading)
 		{
 			lastLoading = Application.isLoadingLevel;

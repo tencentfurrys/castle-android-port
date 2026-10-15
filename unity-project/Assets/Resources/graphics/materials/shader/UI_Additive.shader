@@ -26,15 +26,11 @@ SubShader {
     CGPROGRAM
     #pragma vertex vert
     #pragma fragment frag
-    #pragma multi_compile _ ETC1_EXTERNAL_ALPHA
     #pragma multi_compile _ PIXELSNAP_ON
     #include "UnityCG.cginc"
 
     sampler2D _MainTex;
 
-    #ifdef ETC1_EXTERNAL_ALPHA
-        sampler2D _AlphaTex;
-    #endif
 
     struct appdata_t
     {
@@ -67,12 +63,10 @@ SubShader {
     fixed4 SampleMain (float2 uv)
     {
         fixed4 c = tex2D (_MainTex, uv);
-        #ifdef ETC1_EXTERNAL_ALPHA
-        c.a = tex2D (_AlphaTex, uv).r;
-        #endif
         return c;
     }
 
+    // CastlePort P8: single-variant (no split-alpha) for Adreno variant-selection safety
     fixed4 frag (v2f IN) : SV_Target
     {
         fixed4 c = SampleMain (IN.texcoord) * IN.color;
