@@ -57,7 +57,9 @@ public class CastleDiag : MonoBehaviour
 		if (Application.isLoadingLevel != lastLoading)
 		{
 			lastLoading = Application.isLoadingLevel;
-			CastleLogger.Log("loading:" + (lastLoading ? "1" : "0") + " scene:" + Application.loadedLevelName);
+			int nobjs = Resources.FindObjectsOfTypeAll(typeof(GameObject)).Length;
+			objCount = nobjs;
+			CastleLogger.Log("loading:" + (lastLoading ? "1" : "0") + " scene:" + Application.loadedLevelName + " objs:" + nobjs.ToString());
 		}
 		if (errorCount > 0)
 		{

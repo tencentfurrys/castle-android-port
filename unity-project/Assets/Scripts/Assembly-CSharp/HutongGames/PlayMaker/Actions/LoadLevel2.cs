@@ -62,8 +62,26 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (async)
 				{
+#if UNITY_ANDROID && !UNITY_EDITOR
+					// CastlePort P9: LoadLevelAdditiveAsync never completes on
+					// Android (5.x loader stalls silently: loading flag clears,
+					// zero objects instantiate, no error). Synchronous additive
+					// uses the main-thread path and gets through. The loading
+					// screen (CrossMove) is already up, so the hitch is covered.
+					Application.LoadLevelAdditive(levelName.Value);
+					Debug.Log("LoadLevelAdditiveSync: " + levelName.Value);
+					if (asyncProgress != null)
+					{
+						asyncProgress.Value = 1f;
+					}
+					Log("LOAD COMPLETE");
+					base.Fsm.Event(loadedEvent);
+					Finish();
+					return;
+#else
 					TryBeginLoad(true);
 					return;
+#endif
 				}
 				Application.LoadLevelAdditive(levelName.Value);
 				Debug.Log("LoadLevelAdditive: " + levelName.Value);
