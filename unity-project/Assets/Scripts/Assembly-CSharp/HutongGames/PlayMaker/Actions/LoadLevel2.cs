@@ -62,26 +62,13 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (async)
 				{
-#if UNITY_ANDROID && !UNITY_EDITOR
-					// CastlePort P9: LoadLevelAdditiveAsync never completes on
-					// Android (5.x loader stalls silently: loading flag clears,
-					// zero objects instantiate, no error). Synchronous additive
-					// uses the main-thread path and gets through. The loading
-					// screen (CrossMove) is already up, so the hitch is covered.
-					Application.LoadLevelAdditive(levelName.Value);
-					Debug.Log("LoadLevelAdditiveSync: " + levelName.Value);
-					if (asyncProgress != null)
-					{
-						asyncProgress.Value = 1f;
-					}
-					Log("LOAD COMPLETE");
-					base.Fsm.Event(loadedEvent);
-					Finish();
-					return;
-#else
-					TryBeginLoad(true);
-					return;
-#endif
+							// CastlePort P10: do NOT run sync inline here: the single
+							// load is usually still in flight and its scene switch
+							// would wipe what we add. Defer through the slot waiter
+							// (proven to survive into the new scene); BeginNow runs
+							// the sync additive once the slot frees.
+							TryBeginLoad(true);
+							return;
 				}
 				Application.LoadLevelAdditive(levelName.Value);
 				Debug.Log("LoadLevelAdditive: " + levelName.Value);
@@ -113,8 +100,31 @@ namespace HutongGames.PlayMaker.Actions
 			BeginNow(additiveLoad);
 		}
 
+		private void DoSyncAdditive()
+		{
+			// CastlePort P10: synchronous additive for Android. Must only run
+			// once the single load completed (called via the slot waiter).
+			Application.LoadLevelAdditive(levelName.Value);
+			Debug.Log("LoadLevelAdditiveSync: " + levelName.Value);
+			if (asyncProgress != null)
+			{
+				asyncProgress.Value = 1f;
+			}
+			waitingForSlot = false;
+			Log("LOAD COMPLETE");
+			base.Fsm.Event(loadedEvent);
+			Finish();
+		}
+
 		private void BeginNow(bool additiveLoad)
 		{
+#if UNITY_ANDROID && !UNITY_EDITOR
+			if (additiveLoad)
+			{
+				DoSyncAdditive();
+				return;
+			}
+#endif
 			asyncOperation = additiveLoad
 				? Application.LoadLevelAdditiveAsync(levelName.Value)
 				: Application.LoadLevelAsync(levelName.Value);
