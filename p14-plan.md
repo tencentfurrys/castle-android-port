@@ -63,3 +63,9 @@ All scenes incl. Stage_00 are in build settings (verified from build log).
 - Device log: /storage/emulated/0/Download/CastlePort.log (mirror of app data dir).
 - Editor play-mode harness learns: entering play wipes editor-assembly statics (domain
   reload) — use game-side tracer log (CastlePort.log in LocalLow) for evidence.
+
+## Backup status (2026-10-16, RDP machine dying)
+- Working tree backed up to the repo across commits 93c76df + this follow-up: Assets/Scripts, Assets/Editor, Assets/Plugins, ProjectSettings, Packages, scenes (Open_Title, CrossMove_Castle, Stage_00, Stage_01, Stage_End), tools/, p14-plan.md.
+- Signing keystore: private repo tencentfurrys/castle-port-secrets (castle-debug.keystore + README with fingerprints; alias castle / storepass android). NEVER public.
+- Huge scenes Stage_02/03/04/Gallery (431/215/470/268 MB): stored as release assets of v1.1.2-android-p1 (GitHub 100MB file limit blocks git).
+- The remaining bulk of Assets/ (reserialized binaries) stays in repo history; Unity re-imports it on checkout.
