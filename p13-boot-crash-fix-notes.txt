@@ -1,0 +1,235 @@
+CASTLE OF TEMPTATION ANDROID PORT
+p13 BOOT CRASH FIX - TECHNICAL WRITE-UP
+(written 2026-10-16 by the RDP porting session)
+
+Result: an installable APK that gets past the instant boot crash.
+Release: https://github.com/tencentfurrys/castle-android-port/releases/tag/v1.1.2-android-p13
+Build identity: com.tencentfurrys.castle, versionCode 6, versionName 1.1.2t2,
+                targetSdk 28 / minSdk 16, ARMv7 + x86, Unity 5.6.7f1 (Mono).
+
+
+==============================================================================
+1. THE SYMPTOM
+==============================================================================
+
+p5 .. p12 all died instantly at launch: the app opens, shows black, and is
+gone in under a second. No managed exception, no dialog - a native crash.
+Only Unity 5.6 builds were affected; the old 5.3-based builds at least ran.
+
+
+==============================================================================
+2. ROOT CAUSE (how it was found)
+==============================================================================
+
+The crash was reproduced with a symbolicated callstack (native crash log):
+
+  PlayMakerFSM:Start
+   -> Fsm:Start / UpdateState
+    -> HutongGames.PlayMaker.Actions.CreateObject:OnEnter
+     -> UnityEngine.Object.Instantiate(prefab, position, rotation)
+      -> InstantiateObject
+       -> Transform::SetPosition
+        -> SendTransformChanged
+         -> GameObject::SendMessageAny
+          -> RectTransform::OnTransformChanged
+           -> UI::RectTransform::CalculateLocalPosition3
+              >>> ACCESS VIOLATION: read of address 0x8 <<<
+
+The boot scene (Open_Title) runs a PlayMaker FSM ("Situation") whose start
+state creates three prefabs in a row:
+
+  #1  New_Save_Controller   (2790 objects in the tree)
+  #2  Game_Manager
+  #3  Main_Player
+  (plus one no-op "Create Camera" whose prefab reference is null)
+
+All three prefabs are plain-transform at the root but contain RectTransform
+(UI) objects somewhere in their hierarchy.
+
+Unity 5.6.7f1 crashes natively when a prefab that contains RectTransforms is
+instantiated with a position/rotation argument. During instantiation the
+transform-change notification walks the half-registered clone's RectTransform
+hierarchy and dereferences a parent transform that is still null.
+The exact same call works in Unity 5.3 (which the game was originally built
+on) - this is a 5.6 engine-side regression for this data/codepath.
+
+Dead ends worth recording:
+- Was not the spawn position itself: the values are (0,0,0) / identity.
+- Was not a missing script: instantiating the same prefabs in edit mode
+  worked fine.
+- First fix attempt only diverted prefabs whose ROOT is a RectTransform.
+  Failed: these prefabs have plain-transform roots, so the bad path was
+  still taken and it crashed at the same line.
+
+
+==============================================================================
+3. THE FIX
+==============================================================================
+
+File:
+  unity-project/Assets/Scripts/Assembly-CSharp/HutongGames/PlayMaker/
+  Actions/CreateObject.cs
+
+Change (the whole fix in two lines, guarded by a content check):
+
+  if the prefab contains any RectTransform (or its root is one):
+      GameObject clone = (GameObject)Object.Instantiate((Object)prefab);
+      clone.transform.localPosition = position;
+      clone.transform.localRotation = Quaternion.Euler(rotation);
+  else:
+      (original code, untouched)
+      Object.Instantiate(prefab, position, rotation);
+
+Why it works: instantiating WITHOUT position/rotation avoids the broken
+notification walk of the not-yet-registered clone. Applying the transform
+immediately afterwards is safe because the clone is fully constructed, and
+because it is still parentless the local transform equals the world
+transform - identical result to the original call for these call sites.
+
+Scope discipline:
+- Pure-3D prefabs (no RectTransform anywhere) keep the ORIGINAL call exactly
+  as before; the workaround is limited to UI-containing prefabs, which is
+  precisely what 5.6 cannot instantiate with a transform argument.
+- The Network.Instantiate branch is untouched.
+- A small [CreateObject] diagnostic log was added (see section 7) so the
+  boot sequence can be followed in device logs.
+
+Related data note: every Windows/Android build of this ripped project reports
+  "578 errors" - all of them are the message
+  "Prefab has multiple Transform components! Removing them automatically
+  would not be safe."
+This is pre-existing project data (present since build 58/59, i.e. in all
+previously shipped builds) and does not block output; it was left untouched.
+Also, editor play sessions show ~1467 "Assertion failed on expression:
+'pred(*previous, *i)'" (remove_duplicates.h) asserts while instantiating;
+those are editor-only debug checks and never appear in release player logs.
+
+
+==============================================================================
+4. VERIFICATION (in order, before anything was shipped)
+==============================================================================
+
+A) Editor play-mode run (Unity 5.6.7f1, headless):
+   Opened Open_Title, entered play mode, exercised the full boot FSM.
+   - The three creations each ran through the patched path cleanly.
+   - Long-run proof: 41,100 frames over ~21 minutes, stable at the title
+     screen, loading=0, ZERO errors (only 36 benign sound-FSM warnings).
+   - Lesson learned: entering play mode reloads the scripting domain, which
+     silently wipes editor-side test hooks - the reliable evidence came from
+     the game's own tracer log written through domain reloads (see 7).
+
+B) Windows player sanity build (same sources as the Android build):
+   - Booted to the title screen; log shows tracer[p13t] + all three
+     '[CreateObject] ... ui-bare / ui-done' marker pairs + frame counter
+     increasing; no crash directories; clean shutdown.
+
+C) Android build + packaging + static verification (see 5 and 6):
+   - aapt badging: package/vc6/vn1.1.2t2/targetSdk 28/minSdk 16/armeabi-v7a+x86
+   - zipalign check: "Verification successful"
+   - signing cert extracted from the APK is byte-identical to the p12 cert
+     (CN=CastlePort, sha1 thumbprint 60ECE823F6D3CDF564B02C08524919C2794D5439)
+     so it installs as an update over p12 (no uninstall, no data loss).
+
+
+==============================================================================
+5. BUILD PIPELINE (reproducible)
+==============================================================================
+
+A) Unity build (headless):
+
+   Unity.exe -batchmode -nographics -quit ^
+     -projectPath D:\castle-port-56\unity-project ^
+     -executeMethod CastleBuild.BuildAndroid ^
+     -logFile D:\castle-port-56\build-android-p13.log
+
+   Assets/Editor/CastleBuild.cs sets the player identity first:
+   company CastlePort / product "Castle of Temptation" / package
+   com.tencentfurrys.castle / bundleVersion 1.1.2t2 / bundleVersionCode 6 /
+   minSdk 16 / landscape / OpenGLES2+3 / .NET 2.0.
+   Raw output: unity-project\Castle-1.1.2-android.apk
+   (Unity prints "Castle build result: '578 errors'" - that is the known
+   prefab-noise from section 3; the APK is written correctly.)
+
+B) Repack + sign (tools/repack-p13t.ps1):
+
+   1. apktool 2.9.3 decode the raw APK
+   2. edit apktool.yml:  targetSdkVersion -> 28
+      (Android 14/15+ refuse to install apps targeting very old SDKs;
+       28 matches the p12 release that is known to install)
+      also: versionCode 6, versionName 1.1.2t2
+   3. settings.xml: showSplash -> False
+   4. apktool build -> unsigned APK
+   5. zipalign (4) -> jarsigner with castle-debug.keystore
+      (alias 'castle'; RSA/SHA1 - Android accepts this old signature
+       scheme; modern JDKs only warn locally)
+   6. re-zipalign -> final signed + aligned APK
+      Name: Castle-1.1.2-android-p13-t28.apk
+   7. verification: aapt badging + zipalign -c + grep for the diagnostic
+      marker strings inside the packaged Assembly-CSharp.dll
+
+   Gotcha for future reruns: apktool writes the yml line UNQUOTED
+   ("targetSdkVersion: 23"), so the sdk edit regex must accept optional
+   quotes, otherwise it silently does nothing (this shipped-targetSdk bug
+   was caught and fixed before release).
+
+C) Publish:
+
+   gh release create v1.1.2-android-p13 ^
+     Castle-1.1.2-android-p13-t28.apk ^
+     -R tencentfurrys/castle-android-port ^
+     --title "v1.1.2-android-p13: boot crash fixed (t28)" ^
+     --notes-file p13-notes.md
+
+
+==============================================================================
+6. FILES TOUCHED BY THIS FIX (Unity project)
+==============================================================================
+
+  Assets/Scripts/Assembly-CSharp/HutongGames/PlayMaker/Actions/CreateObject.cs
+      -> the fix (section 3)
+  Assets/Scripts/Assembly-CSharp/CastleBootTracer.cs
+      -> tracer tag bumped to p13t
+  Assets/Editor/CastleBuild.cs
+      -> version 1.1.2t2 / versionCode 6
+  tools/repack-p13t.ps1 (packaging, outside the Unity project)
+
+Not synced back to the 5.3 trees: by project policy, 5.6-specific changes
+(script-updater rewrites, bundleIdentifier -> applicationIdentifier) stay in
+the 5.6 tree only. The p12 stage-load-order fix and the three compile fixups
+remain in all trees.
+
+
+==============================================================================
+7. DEVICE DIAGNOSTICS (how to check a device yourself)
+==============================================================================
+
+The game writes its own log on device:
+  /sdcard/Android/data/com.tencentfurrys.castle/files/CastlePort.log
+  (mirrored to /storage/emulated/0/Download/CastlePort.log)
+
+A healthy p13 boot contains, in order:
+  tracer[p13t]: beforeSceneLoad platform=Android
+  [CreateObject] #1 ui-bare New_Save_Controller pos (0.0, 0.0, 0.0)
+  [CreateObject] #1 ui-done New_Save_Controller
+  [CreateObject] #2 ... Game_Manager ...  /  ui-done
+  [CreateObject] #3 ... Main_Player ...  /  ui-done
+  tracer: frame N   (N counting up = the game is running)
+  scene loaded: Stage_XX  (when a stage loads)
+
+If something stops, the last lines pinpoint the stage silently.
+
+Touch controls: 1-finger tap = Z, swipe-and-hold = arrow keys,
+2-finger tap = X, 3-finger tap = Space, hardware BACK = Escape.
+
+
+==============================================================================
+8. KNOWN CAVEATS
+==============================================================================
+
+- Unity 5.6 with realtime GI disabled: some lighting may look slightly
+  different from the original 5.3 builds.
+- Windows standalone builds also emit the "578 errors" prefab-noise; it is
+  cosmetic and does not affect output (see section 3).
+- If a future crash appears elsewhere, capture
+  /storage/emulated/0/Download/CastlePort.log - it survives between runs
+  (rotation capped) and contains the tracer + [CreateObject] markers.
