@@ -37,7 +37,7 @@ namespace HutongGames.PlayMaker.Actions
 			GameObject ownerDefaultTarget = base.Fsm.GetOwnerDefaultTarget(gameObject);
 			if (!(ownerDefaultTarget == null))
 			{
-				Transform transform = ownerDefaultTarget.transform.FindChild(childName.Value);
+				Transform transform = ownerDefaultTarget.transform.Find(childName.Value);
 				storeResult.Value = ((!(transform != null)) ? null : transform.gameObject);
 			}
 		}

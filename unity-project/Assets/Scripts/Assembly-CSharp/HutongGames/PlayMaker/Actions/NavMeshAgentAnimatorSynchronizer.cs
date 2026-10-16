@@ -7,7 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 	public class NavMeshAgentAnimatorSynchronizer : FsmStateAction
 	{
 		[RequiredField]
-		[CheckForComponent(typeof(NavMeshAgent))]
+		[CheckForComponent(typeof(UnityEngine.AI.NavMeshAgent))]
 		[CheckForComponent(typeof(Animator))]
 		[CheckForComponent(typeof(PlayMakerAnimatorMoveProxy))]
 		[Tooltip("The Agent target. An Animator component and a PlayMakerAnimatorMoveProxy component are required")]
@@ -17,7 +17,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		private Animator _animator;
 
-		private NavMeshAgent _agent;
+		private UnityEngine.AI.NavMeshAgent _agent;
 
 		private Transform _trans;
 
@@ -34,7 +34,7 @@ namespace HutongGames.PlayMaker.Actions
 				Finish();
 				return;
 			}
-			_agent = ownerDefaultTarget.GetComponent<NavMeshAgent>();
+			_agent = ownerDefaultTarget.GetComponent<UnityEngine.AI.NavMeshAgent>();
 			_animator = ownerDefaultTarget.GetComponent<Animator>();
 			if (_animator == null)
 			{

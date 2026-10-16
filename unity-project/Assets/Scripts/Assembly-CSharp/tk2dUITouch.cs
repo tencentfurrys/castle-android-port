@@ -28,8 +28,8 @@ public struct tk2dUITouch
 		phase = touch.phase;
 		fingerId = touch.fingerId;
 		position = touch.position;
-		deltaPosition = deltaPosition;
-		deltaTime = deltaTime;
+		deltaPosition = touch.deltaPosition;
+		deltaTime = touch.deltaTime;
 	}
 
 	public override string ToString()

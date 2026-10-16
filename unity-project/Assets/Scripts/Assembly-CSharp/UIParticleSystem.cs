@@ -139,7 +139,7 @@ public class UIParticleSystem : MaskableGraphic
 			Vector4 uv = _uv;
 			if (_textureSheetAnimation.enabled)
 			{
-				float num3 = 1f - particle.lifetime / particle.startLifetime;
+				float num3 = 1f - particle.remainingLifetime / particle.startLifetime;
 				num3 = Mathf.Repeat(num3 * (float)_textureSheetAnimation.cycleCount, 1f);
 				int num4 = 0;
 				switch (_textureSheetAnimation.animation)

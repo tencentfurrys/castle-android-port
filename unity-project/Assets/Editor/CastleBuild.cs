@@ -24,9 +24,9 @@ public static class CastleBuild
     {
         PlayerSettings.companyName = "CastlePort";
         PlayerSettings.productName = "Castle of Temptation";
-        PlayerSettings.bundleIdentifier = "com.tencentfurrys.castle";
-        PlayerSettings.bundleVersion = "1.1.2";
-        PlayerSettings.Android.bundleVersionCode = 4;
+        PlayerSettings.applicationIdentifier = "com.tencentfurrys.castle";
+        PlayerSettings.bundleVersion = "1.1.2t2";
+        PlayerSettings.Android.bundleVersionCode = 6;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel16;
         PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
         PlayerSettings.allowedAutorotateToLandscapeLeft = true;

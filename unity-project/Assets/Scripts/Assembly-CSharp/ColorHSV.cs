@@ -93,6 +93,10 @@ public struct ColorHSV
 
 	public ColorHSV(float h, float s, float v)
 	{
+		_h = 0f;
+		_s = 0f;
+		_v = 0f;
+		_a = 0f;
 		this.h = h;
 		this.s = s;
 		this.v = v;
@@ -101,6 +105,10 @@ public struct ColorHSV
 
 	public ColorHSV(float h, float s, float v, float a)
 	{
+		_h = 0f;
+		_s = 0f;
+		_v = 0f;
+		_a = 0f;
 		this.h = h;
 		this.s = s;
 		this.v = v;

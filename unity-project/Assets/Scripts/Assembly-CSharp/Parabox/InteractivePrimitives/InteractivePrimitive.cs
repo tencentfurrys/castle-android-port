@@ -105,7 +105,7 @@ namespace Parabox.InteractivePrimitives
 			sharedMesh.vertices = vertices;
 			LocalScale = Vector3.one;
 			sharedMesh.RecalculateNormals();
-			sharedMesh.Optimize();
+			;
 			base.transform.localScale = Vector3.one;
 		}
 

@@ -14,9 +14,9 @@ namespace TileMapEditor
 			List<List<Vector2>> list = new List<List<Vector2>>();
 			Clipper clipper = new Clipper();
 			string text = spawnPoint.gameObject.name + "Collider";
-			if (spawnPoint.FindChild(text) != null)
+			if (spawnPoint.Find(text) != null)
 			{
-				colliderObj = spawnPoint.FindChild(text).gameObject;
+				colliderObj = spawnPoint.Find(text).gameObject;
 				MonoBehaviour.print(colliderObj.name);
 				UnityEngine.Object.DestroyImmediate(colliderObj.GetComponent<PolygonCollider2D>());
 			}

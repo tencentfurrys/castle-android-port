@@ -34,11 +34,21 @@ namespace HutongGames.PlayMaker.Actions
 		// with no error). Serialize: one async load at a time, rest wait.
 		private static AsyncOperation activeLoad;
 
+		// CastlePort P12: frame when the last scene load finished. The engine's
+		// isLoadingLevel flag lags the AsyncOperation.isDone flag by a frame or
+		// more; a sync additive fired while isLoadingLevel==1 is silently
+		// ignored (p11: additive dropped, zero objects, no error, no callback).
+		// Gate the additive on the engine flag plus a small settle margin.
+		private static int lastLoadCompleteFrame = -100;
+		private int attempts;
+		private int retryAtFrame = -1;
+
 		public static void NotifyLoadComplete()
 		{
 			// Called by CastleDiag.OnLevelWasLoaded (survives scene switches).
 			// Rescues the slot when the loading FSM died in a single load.
 			activeLoad = null;
+			lastLoadCompleteFrame = Time.frameCount;
 		}
 
 		public override void Reset()
@@ -100,18 +110,41 @@ namespace HutongGames.PlayMaker.Actions
 			BeginNow(additiveLoad);
 		}
 
+		private static int CountObjects()
+		{
+			return Resources.FindObjectsOfTypeAll(typeof(GameObject)).Length;
+		}
+
 		private void DoSyncAdditive()
 		{
-			// CastlePort P10: synchronous additive for Android. Must only run
-			// once the single load completed (called via the slot waiter).
+			// CastlePort P12: synchronous additive for Android. Must only run
+			// once the engine is actually idle (activeLoad done AND
+			// isLoadingLevel 0). A call made while the previous load is still
+			// settling is silently dropped: verify with an object-count delta
+			// and retry a few frames later if nothing was added.
+			attempts++;
+			int before = CountObjects();
 			Application.LoadLevelAdditive(levelName.Value);
-			Debug.Log("LoadLevelAdditiveSync: " + levelName.Value);
+			int after = CountObjects();
+			bool added = (after - before) >= 1;
+			Debug.Log("LoadLevelAdditiveSync: " + levelName.Value
+				+ " attempt:" + attempts
+				+ " objs:" + before + "->" + after
+				+ (added ? " (added)" : " (DROPPED)"));
+			if (!added && attempts < 5)
+			{
+				waitingForSlot = true;
+				asyncOperation = null;
+				retryAtFrame = Time.frameCount + 60;
+				return;
+			}
 			if (asyncProgress != null)
 			{
 				asyncProgress.Value = 1f;
 			}
 			waitingForSlot = false;
-			Log("LOAD COMPLETE");
+			retryAtFrame = -1;
+			Log(added ? "LOAD COMPLETE" : ("LOAD COMPLETE (additive gave up after " + attempts + " tries)"));
 			base.Fsm.Event(loadedEvent);
 			Finish();
 		}
@@ -144,10 +177,28 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (waitingForSlot || asyncOperation == null)
 			{
-				if (activeLoad == null || activeLoad.isDone)
+				if (activeLoad != null && !activeLoad.isDone)
 				{
-					BeginNow(additive);
+					return;
 				}
+				if (retryAtFrame > 0)
+				{
+					if (Time.frameCount >= retryAtFrame)
+					{
+						retryAtFrame = -1;
+						BeginNow(additive);
+					}
+					return;
+				}
+				// CastlePort P12: the engine ignores load calls while its
+				// internal loader is still settling after the previous load
+				// (isLoadingLevel lags activeLoad.isDone). Wait for the flag
+				// to clear plus a small margin before firing.
+				if (waitingForSlot && (Application.isLoadingLevel || Time.frameCount < lastLoadCompleteFrame + 2))
+				{
+					return;
+				}
+				BeginNow(additive);
 				return;
 			}
 			if (asyncOperation.isDone)

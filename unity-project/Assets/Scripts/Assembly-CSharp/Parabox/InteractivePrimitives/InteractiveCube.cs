@@ -44,7 +44,7 @@ namespace Parabox.InteractivePrimitives
 			};
 			mesh.uv = new Vector2[mesh.vertices.Length];
 			mesh.RecalculateNormals();
-			mesh.Optimize();
+			;
 			GetComponent<MeshFilter>().sharedMesh = mesh;
 			GetComponent<MeshRenderer>().sharedMaterial = base.DefaultDiffuse;
 		}

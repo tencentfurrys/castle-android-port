@@ -86,7 +86,7 @@ namespace HutongGames.PlayMaker.Actions
 				storeText.Value = wwwObject.text;
 				storeTexture.Value = wwwObject.texture;
 				#if !UNITY_ANDROID
-				storeMovieTexture.Value = wwwObject.movie;
+				storeMovieTexture.Value = wwwObject.GetMovieTexture();
 				#endif
 				errorString.Value = wwwObject.error;
 				base.Fsm.Event((!string.IsNullOrEmpty(errorString.Value)) ? isError : isDone);

@@ -29,6 +29,8 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Usually 0. The group number allows you to group together network messages which allows you to filter them if so desired.")]
 		public FsmInt networkGroup;
 
+		private static int callCounter;
+
 		public override void Reset()
 		{
 			gameObject = null;
@@ -44,6 +46,15 @@ namespace HutongGames.PlayMaker.Actions
 			storeObject = null;
 			networkInstantiate = false;
 			networkGroup = 0;
+		}
+
+		private static bool HasRectTransformInTree(GameObject go)
+		{
+			if (go.transform is RectTransform)
+			{
+				return true;
+			}
+			return go.GetComponentInChildren<RectTransform>(true) != null;
 		}
 
 		public override void OnEnter()
@@ -73,8 +84,31 @@ namespace HutongGames.PlayMaker.Actions
 						euler = rotation.Value;
 					}
 				}
-				GameObject value2 = (networkInstantiate.Value ? ((GameObject)Network.Instantiate(value, vector, Quaternion.Euler(euler), networkGroup.Value)) : ((GameObject)Object.Instantiate(value, vector, Quaternion.Euler(euler))));
-				storeObject.Value = value2;
+				callCounter++;
+				if (networkInstantiate.Value)
+				{
+					GameObject value2n = (GameObject)Network.Instantiate(value, vector, Quaternion.Euler(euler), networkGroup.Value);
+					storeObject.Value = value2n;
+				}
+				else if (HasRectTransformInTree(value))
+				{
+					// 5.6 fix: Object.Instantiate(prefab, pos, rot) on a prefab that contains
+					// RectTransforms crashes 5.6.7f1 in UI::RectTransform::CalculateLocalPosition3
+					// (native access violation during the transform-change notification of the
+					// not-yet-registered clone). Workaround: instantiate without position/rotation,
+					// then apply them. The clone is parentless here, so local == world.
+					Debug.Log(string.Concat("[CreateObject] #", callCounter, " ui-bare ", value.name, " pos ", vector.ToString()));
+					GameObject value2 = (GameObject)Object.Instantiate((Object)value);
+					value2.transform.localPosition = vector;
+					value2.transform.localRotation = Quaternion.Euler(euler);
+					Debug.Log(string.Concat("[CreateObject] #", callCounter, " ui-done ", value.name));
+					storeObject.Value = value2;
+				}
+				else
+				{
+					GameObject value2p = (GameObject)Object.Instantiate((Object)value, vector, Quaternion.Euler(euler));
+					storeObject.Value = value2p;
+				}
 			}
 			Finish();
 		}

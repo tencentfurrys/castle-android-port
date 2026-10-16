@@ -92,7 +92,7 @@ namespace Parabox.InteractivePrimitives
 			mesh.triangles = array3;
 			mesh.uv = new Vector2[mesh.vertices.Length];
 			mesh.RecalculateNormals();
-			mesh.Optimize();
+			;
 			GetComponent<MeshFilter>().sharedMesh = mesh;
 			if (GetComponent<MeshRenderer>().sharedMaterial == null)
 			{

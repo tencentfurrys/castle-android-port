@@ -31,8 +31,12 @@ namespace UnityStandardAssets.Effects
 				{
 					lastSoundTime = Time.time;
 				}
+#if UNITY_5_6_OR_NEWER
+				Collider collider = m_CollisionEvents[i].colliderComponent as Collider;
+#else
 				Collider collider = m_CollisionEvents[i].collider;
-				if (collider.attachedRigidbody != null)
+#endif
+				if (collider != null && collider.attachedRigidbody != null)
 				{
 					Vector3 velocity = m_CollisionEvents[i].velocity;
 					collider.attachedRigidbody.AddForce(velocity * force, ForceMode.Impulse);
